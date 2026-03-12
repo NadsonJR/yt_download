@@ -1,0 +1,2502 @@
+2026-03-12 09:24:20 - INFO - Iniciando YouTube Downloader
+2026-03-12 09:24:20 - INFO - Verificando disponibilidade do FFmpeg
+2026-03-12 09:24:20 - DEBUG - FFmpeg encontrado no PATH do sistema: ffmpeg version N-120064-g3b9dbda49b-20250701 Copyright (c) 2000-2025 the FFmpeg developers
+2026-03-12 09:24:20 - INFO - Inicializando interface gráfica
+2026-03-12 09:24:21 - DEBUG - Janela principal criada
+2026-03-12 09:24:21 - DEBUG - Criando campo de entrada para URL
+2026-03-12 09:24:21 - DEBUG - Criando campo para pasta de destino
+2026-03-12 09:24:21 - INFO - Carregando configuração
+2026-03-12 09:24:21 - DEBUG - Modo executável: Diretório de configuração: C:\Users\nadso\Documents\pythonProject\yt_downloader\dist
+2026-03-12 09:24:21 - DEBUG - Caminho do arquivo de configuração: C:\Users\nadso\Documents\pythonProject\yt_downloader\dist\config.json
+2026-03-12 09:24:21 - WARNING - Arquivo de configuração não encontrado: C:\Users\nadso\Documents\pythonProject\yt_downloader\dist\config.json
+2026-03-12 09:24:21 - DEBUG - Pasta de destino padrão: 
+2026-03-12 09:24:21 - DEBUG - Criando seleção de tipo de download
+2026-03-12 09:24:21 - DEBUG - Criando seleção de qualidade de vídeo
+2026-03-12 09:24:21 - DEBUG - Criando seleção de formato de saída
+2026-03-12 09:24:21 - DEBUG - Criando barra de progresso
+2026-03-12 09:24:21 - DEBUG - Criando label de status
+2026-03-12 09:24:21 - DEBUG - Criando label de orientação
+2026-03-12 09:24:21 - DEBUG - Criando botão de download
+2026-03-12 09:24:21 - DEBUG - Atualizando opções de formato para tipo: audio
+2026-03-12 09:24:21 - DEBUG - Botão habilitado para download de áudio
+2026-03-12 09:24:21 - DEBUG - Formatos atualizados: ('MP3 (320kbps)', 'MP3 (192kbps)', 'WAV', 'FLAC', 'AAC', 'OGG', 'M4A')
+2026-03-12 09:24:21 - INFO - Interface gráfica inicializada com sucesso
+2026-03-12 09:24:21 - INFO - Iniciando loop principal da aplicação
+2026-03-12 09:24:24 - DEBUG - URL alterada, resetando opções de qualidade
+2026-03-12 09:24:24 - DEBUG - Botão de download atualizado - qualidade precisa ser verificada novamente
+2026-03-12 09:24:24 - DEBUG - URL alterada, resetando opções de qualidade
+2026-03-12 09:24:24 - DEBUG - Botão de download atualizado - qualidade precisa ser verificada novamente
+2026-03-12 09:24:25 - DEBUG - URL alterada, resetando opções de qualidade
+2026-03-12 09:24:25 - DEBUG - Botão de download atualizado - qualidade precisa ser verificada novamente
+2026-03-12 09:24:25 - DEBUG - URL alterada, resetando opções de qualidade
+2026-03-12 09:24:25 - DEBUG - Botão de download atualizado - qualidade precisa ser verificada novamente
+2026-03-12 09:24:26 - INFO - Verificando qualidades disponíveis para: https://www.youtube.com/watch?v=S5MUgY4vNIc
+2026-03-12 09:24:26 - DEBUG - Iniciando thread para verificar qualidades
+2026-03-12 09:24:26 - DEBUG - Iniciando extração de informações de qualidade
+2026-03-12 09:24:26 - DEBUG - Extraindo metadados do vídeo
+2026-03-12 09:24:28 - INFO - Encontrados 31 formatos disponíveis
+2026-03-12 09:24:28 - INFO - Atualizando opções de qualidade para: Switch OLED destravado DA SHOPEE com FREESHOP INSTALADA!
+2026-03-12 09:24:28 - DEBUG - Finalizando processo de verificação de qualidades
+2026-03-12 09:24:28 - DEBUG - Qualidades disponíveis: ['Melhor qualidade disponível', '2160p (30fps)', '1440p (30fps)', '1080p (30fps)', '720p (30fps)', '480p (30fps)', '360p (30fps)', '240p (30fps)', '144p (30fps)']
+2026-03-12 09:24:28 - DEBUG - Botão de download habilitado após verificação de qualidade
+2026-03-12 09:24:31 - DEBUG - Abrindo diálogo para selecionar pasta de destino
+2026-03-12 09:24:33 - INFO - Pasta de destino selecionada: C:/Users/nadso/Documents/Pasta teste
+2026-03-12 09:24:35 - DEBUG - Atualizando opções de formato para tipo: both
+2026-03-12 09:24:35 - DEBUG - Botão habilitado para download de vídeo - qualidade verificada
+2026-03-12 09:24:35 - DEBUG - Formatos atualizados: ('MP4 (H.264)', 'MP4 (melhor qualidade)', 'WebM (VP9)', 'AVI', 'MKV', 'MOV')
+2026-03-12 09:24:37 - INFO - Preparando para iniciar download: URL=https://www.youtube.com/watch?v=S5MUgY4vNIc, destino=C:/Users/nadso/Documents/Pasta teste, tipo=both, formato=MP4 (melhor qualidade), qualidade=1440p (30fps)
+2026-03-12 09:24:37 - INFO - Salvando configuração: pasta destino = C:/Users/nadso/Documents/Pasta teste, formato = MP4 (melhor qualidade)
+2026-03-12 09:24:37 - DEBUG - Modo executável: Diretório de configuração: C:\Users\nadso\Documents\pythonProject\yt_downloader\dist
+2026-03-12 09:24:37 - DEBUG - Caminho do arquivo de configuração: C:\Users\nadso\Documents\pythonProject\yt_downloader\dist\config.json
+2026-03-12 09:24:37 - DEBUG - Configuração salva com sucesso
+2026-03-12 09:24:37 - INFO - Tipo de download selecionado: both
+2026-03-12 09:24:37 - INFO - Formato de saída selecionado: MP4 (melhor qualidade)
+2026-03-12 09:24:37 - INFO - Qualidade selecionada: 1440p (30fps)
+2026-03-12 09:24:37 - DEBUG - Criando thread para download
+2026-03-12 09:24:37 - INFO - Iniciando download: URL=https://www.youtube.com/watch?v=S5MUgY4vNIc, tipo=both, formato=MP4 (melhor qualidade), qualidade=1440p (30fps), destino=C:/Users/nadso/Documents/Pasta teste
+2026-03-12 09:24:37 - DEBUG - Thread de download iniciada
+2026-03-12 09:24:37 - DEBUG - Configuração do formato: {'ext': 'mp4', 'format': 'bestvideo[height>=1080]+bestaudio/best[height>=1080]'}
+2026-03-12 09:24:37 - DEBUG - Qualidade selecionada: 1440p (30fps)
+2026-03-12 09:24:37 - DEBUG - Configurando opções para download de áudio+vídeo
+2026-03-12 09:24:37 - DEBUG - Formato baseado na qualidade 1440p: bestvideo[height<=1440]+bestaudio/best[height<=1440]
+2026-03-12 09:24:37 - INFO - Iniciando o processo de download com yt_dlp
+2026-03-12 09:24:37 - DEBUG - Opções do yt_dlp: {'outtmpl': 'C:/Users/nadso/Documents/Pasta teste\\%(title)s.%(ext)s', 'progress_hooks': [<function download_content.<locals>.<lambda> at 0x0000022EA2611620>], 'ignoreerrors': False, 'no_warnings': False, 'extractaudio': False, 'audioformat': None, 'retries': 3, 'fragment_retries': 3, 'skip_unavailable_fragments': False, 'postprocessor_args': {'ffmpeg': ['-y', '-avoid_negative_ts', 'make_zero', '-fflags', '+genpts', '-c:v', 'copy', '-c:a', 'copy']}, 'format': 'bestvideo[height<=1440]+bestaudio/best[height<=1440]', 'merge_output_format': 'mp4'}
+2026-03-12 09:24:37 - DEBUG - Obtendo informações do vídeo
+2026-03-12 09:24:39 - INFO - Vídeo encontrado: Título='Switch OLED destravado DA SHOPEE com FREESHOP INSTALADA!', Duração=1197s
+2026-03-12 09:24:39 - DEBUG - Iniciando download efetivo
+2026-03-12 09:24:39 - INFO - Download concluído com sucesso: O vídeo e áudio foram baixados na qualidade 1440p (30fps) no formato MP4 (melhor qualidade).
+2026-03-12 09:25:09 - INFO - Preparando para iniciar download: URL=https://www.youtube.com/watch?v=S5MUgY4vNIc, destino=C:/Users/nadso/Documents/Pasta teste, tipo=both, formato=MP4 (melhor qualidade), qualidade=1440p (30fps)
+2026-03-12 09:25:09 - INFO - Salvando configuração: pasta destino = C:/Users/nadso/Documents/Pasta teste, formato = MP4 (melhor qualidade)
+2026-03-12 09:25:09 - DEBUG - Modo executável: Diretório de configuração: C:\Users\nadso\Documents\pythonProject\yt_downloader\dist
+2026-03-12 09:25:09 - DEBUG - Caminho do arquivo de configuração: C:\Users\nadso\Documents\pythonProject\yt_downloader\dist\config.json
+2026-03-12 09:25:09 - DEBUG - Configuração salva com sucesso
+2026-03-12 09:25:09 - INFO - Tipo de download selecionado: both
+2026-03-12 09:25:09 - INFO - Formato de saída selecionado: MP4 (melhor qualidade)
+2026-03-12 09:25:09 - INFO - Qualidade selecionada: 1440p (30fps)
+2026-03-12 09:25:09 - DEBUG - Criando thread para download
+2026-03-12 09:25:09 - INFO - Iniciando download: URL=https://www.youtube.com/watch?v=S5MUgY4vNIc, tipo=both, formato=MP4 (melhor qualidade), qualidade=1440p (30fps), destino=C:/Users/nadso/Documents/Pasta teste
+2026-03-12 09:25:09 - DEBUG - Thread de download iniciada
+2026-03-12 09:25:09 - DEBUG - Configuração do formato: {'ext': 'mp4', 'format': 'bestvideo[height>=1080]+bestaudio/best[height>=1080]'}
+2026-03-12 09:25:09 - DEBUG - Qualidade selecionada: 1440p (30fps)
+2026-03-12 09:25:09 - DEBUG - Configurando opções para download de áudio+vídeo
+2026-03-12 09:25:09 - DEBUG - Formato baseado na qualidade 1440p: bestvideo[height<=1440]+bestaudio/best[height<=1440]
+2026-03-12 09:25:09 - INFO - Iniciando o processo de download com yt_dlp
+2026-03-12 09:25:09 - DEBUG - Opções do yt_dlp: {'outtmpl': 'C:/Users/nadso/Documents/Pasta teste\\%(title)s.%(ext)s', 'progress_hooks': [<function download_content.<locals>.<lambda> at 0x0000022EA4559440>], 'ignoreerrors': False, 'no_warnings': False, 'extractaudio': False, 'audioformat': None, 'retries': 3, 'fragment_retries': 3, 'skip_unavailable_fragments': False, 'postprocessor_args': {'ffmpeg': ['-y', '-avoid_negative_ts', 'make_zero', '-fflags', '+genpts', '-c:v', 'copy', '-c:a', 'copy']}, 'format': 'bestvideo[height<=1440]+bestaudio/best[height<=1440]', 'merge_output_format': 'mp4'}
+2026-03-12 09:25:09 - DEBUG - Obtendo informações do vídeo
+2026-03-12 09:25:10 - INFO - Vídeo encontrado: Título='Switch OLED destravado DA SHOPEE com FREESHOP INSTALADA!', Duração=1197s
+2026-03-12 09:25:10 - DEBUG - Iniciando download efetivo
+2026-03-12 09:25:10 - INFO - Verificando qualidades disponíveis para: https://www.youtube.com/watch?v=S5MUgY4vNIc
+2026-03-12 09:25:10 - DEBUG - Iniciando thread para verificar qualidades
+2026-03-12 09:25:10 - DEBUG - Iniciando extração de informações de qualidade
+2026-03-12 09:25:10 - DEBUG - Extraindo metadados do vídeo
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:25:11 - INFO - Baixando: 0% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:25:11 - INFO - Baixando: 0% - Velocidade: 1478.08 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:25:11 - INFO - Baixando: 0% - Velocidade: 2310.37 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:25:11 - INFO - Baixando: 0% - Velocidade: 3722.53 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:25:11 - INFO - Baixando: 0% - Velocidade: 5139.88 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:25:11 - INFO - Baixando: 0% - Velocidade: 8959.45 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:25:11 - INFO - Baixando: 0% - Velocidade: 18061.12 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:25:11 - INFO - Baixando: 0% - Velocidade: 31759.93 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:25:11 - INFO - Baixando: 0% - Velocidade: 44289.24 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:25:11 - INFO - Baixando: 0% - Velocidade: 70347.46 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:25:11 - INFO - Baixando: 0% - Velocidade: 84935.01 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:25:11 - INFO - Baixando: 0% - Velocidade: 40403.94 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 1%
+2026-03-12 09:25:11 - DEBUG - Baixando: 1% - Velocidade: 46565.04 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 1%
+2026-03-12 09:25:11 - DEBUG - Baixando: 1% - Velocidade: 47668.08 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 1%
+2026-03-12 09:25:11 - DEBUG - Baixando: 1% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 1%
+2026-03-12 09:25:11 - DEBUG - Baixando: 1% - Velocidade: 2999.50 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 1%
+2026-03-12 09:25:11 - DEBUG - Baixando: 1% - Velocidade: 1995.66 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 1%
+2026-03-12 09:25:11 - DEBUG - Baixando: 1% - Velocidade: 3323.36 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 1%
+2026-03-12 09:25:11 - DEBUG - Baixando: 1% - Velocidade: 5623.85 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 1%
+2026-03-12 09:25:11 - DEBUG - Baixando: 1% - Velocidade: 9673.85 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 1%
+2026-03-12 09:25:11 - DEBUG - Baixando: 1% - Velocidade: 14918.41 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 1%
+2026-03-12 09:25:11 - DEBUG - Baixando: 1% - Velocidade: 9609.16 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 1%
+2026-03-12 09:25:11 - DEBUG - Baixando: 1% - Velocidade: 17906.71 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 1%
+2026-03-12 09:25:11 - DEBUG - Baixando: 1% - Velocidade: 32439.75 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 1%
+2026-03-12 09:25:11 - DEBUG - Baixando: 1% - Velocidade: 50419.53 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 1%
+2026-03-12 09:25:11 - DEBUG - Baixando: 1% - Velocidade: 27742.88 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - INFO - Encontrados 31 formatos disponíveis
+2026-03-12 09:25:11 - INFO - Atualizando opções de qualidade para: Switch OLED destravado DA SHOPEE com FREESHOP INSTALADA!
+2026-03-12 09:25:11 - DEBUG - Finalizando processo de verificação de qualidades
+2026-03-12 09:25:11 - DEBUG - Qualidades disponíveis: ['Melhor qualidade disponível', '2160p (30fps)', '1440p (30fps)', '1080p (30fps)', '720p (30fps)', '480p (30fps)', '360p (30fps)', '240p (30fps)', '144p (30fps)']
+2026-03-12 09:25:11 - DEBUG - Botão de download habilitado após verificação de qualidade
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 2%
+2026-03-12 09:25:11 - DEBUG - Baixando: 2% - Velocidade: 31207.21 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 2%
+2026-03-12 09:25:11 - DEBUG - Baixando: 2% - Velocidade: 35473.03 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 2%
+2026-03-12 09:25:11 - DEBUG - Baixando: 2% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 2%
+2026-03-12 09:25:11 - DEBUG - Baixando: 2% - Velocidade: 1500.29 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 2%
+2026-03-12 09:25:11 - DEBUG - Baixando: 2% - Velocidade: 2333.87 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 2%
+2026-03-12 09:25:11 - DEBUG - Baixando: 2% - Velocidade: 2926.80 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 2%
+2026-03-12 09:25:11 - DEBUG - Baixando: 2% - Velocidade: 5057.51 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 2%
+2026-03-12 09:25:11 - DEBUG - Baixando: 2% - Velocidade: 7744.92 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 2%
+2026-03-12 09:25:11 - DEBUG - Baixando: 2% - Velocidade: 15612.77 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 2%
+2026-03-12 09:25:11 - DEBUG - Baixando: 2% - Velocidade: 27921.88 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 2%
+2026-03-12 09:25:11 - DEBUG - Baixando: 2% - Velocidade: 45583.47 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 2%
+2026-03-12 09:25:11 - DEBUG - Baixando: 2% - Velocidade: 77449.38 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 2%
+2026-03-12 09:25:11 - DEBUG - Baixando: 2% - Velocidade: 115531.73 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:11 - DEBUG - Progresso atualizado: 3%
+2026-03-12 09:25:11 - DEBUG - Baixando: 3% - Velocidade: 97888.29 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 3%
+2026-03-12 09:25:12 - DEBUG - Baixando: 3% - Velocidade: 27947.36 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 3%
+2026-03-12 09:25:12 - DEBUG - Baixando: 3% - Velocidade: 29211.52 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 3%
+2026-03-12 09:25:12 - DEBUG - Baixando: 3% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 3%
+2026-03-12 09:25:12 - DEBUG - Baixando: 3% - Velocidade: 2986.69 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 3%
+2026-03-12 09:25:12 - DEBUG - Baixando: 3% - Velocidade: 2330.17 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 3%
+2026-03-12 09:25:12 - DEBUG - Baixando: 3% - Velocidade: 3327.76 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 3%
+2026-03-12 09:25:12 - DEBUG - Baixando: 3% - Velocidade: 5624.82 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 3%
+2026-03-12 09:25:12 - DEBUG - Baixando: 3% - Velocidade: 9666.06 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 3%
+2026-03-12 09:25:12 - DEBUG - Baixando: 3% - Velocidade: 16899.64 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 3%
+2026-03-12 09:25:12 - DEBUG - Baixando: 3% - Velocidade: 26789.59 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 3%
+2026-03-12 09:25:12 - DEBUG - Baixando: 3% - Velocidade: 48580.84 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 3%
+2026-03-12 09:25:12 - DEBUG - Baixando: 3% - Velocidade: 88797.27 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 4%
+2026-03-12 09:25:12 - DEBUG - Baixando: 4% - Velocidade: 57513.18 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 4%
+2026-03-12 09:25:12 - DEBUG - Baixando: 4% - Velocidade: 31915.26 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 4%
+2026-03-12 09:25:12 - DEBUG - Baixando: 4% - Velocidade: 24235.83 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 5%
+2026-03-12 09:25:12 - INFO - Baixando: 5% - Velocidade: 27444.72 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 5%
+2026-03-12 09:25:12 - INFO - Baixando: 5% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 5%
+2026-03-12 09:25:12 - INFO - Baixando: 5% - Velocidade: 2992.37 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 5%
+2026-03-12 09:25:12 - INFO - Baixando: 5% - Velocidade: 2333.13 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 5%
+2026-03-12 09:25:12 - INFO - Baixando: 5% - Velocidade: 2723.93 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 5%
+2026-03-12 09:25:12 - INFO - Baixando: 5% - Velocidade: 4124.59 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 5%
+2026-03-12 09:25:12 - INFO - Baixando: 5% - Velocidade: 7397.57 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 5%
+2026-03-12 09:25:12 - INFO - Baixando: 5% - Velocidade: 12073.09 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 5%
+2026-03-12 09:25:12 - INFO - Baixando: 5% - Velocidade: 22135.13 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 5%
+2026-03-12 09:25:12 - INFO - Baixando: 5% - Velocidade: 37791.19 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 5%
+2026-03-12 09:25:12 - INFO - Baixando: 5% - Velocidade: 70446.79 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 5%
+2026-03-12 09:25:12 - INFO - Baixando: 5% - Velocidade: 48096.15 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 5%
+2026-03-12 09:25:12 - INFO - Baixando: 5% - Velocidade: 43734.61 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 6%
+2026-03-12 09:25:12 - DEBUG - Baixando: 6% - Velocidade: 60508.44 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 6%
+2026-03-12 09:25:12 - DEBUG - Baixando: 6% - Velocidade: 62225.82 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 6%
+2026-03-12 09:25:12 - DEBUG - Baixando: 6% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 6%
+2026-03-12 09:25:12 - DEBUG - Baixando: 6% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 6%
+2026-03-12 09:25:12 - DEBUG - Baixando: 6% - Velocidade: 3496.50 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 6%
+2026-03-12 09:25:12 - DEBUG - Baixando: 6% - Velocidade: 7492.50 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 6%
+2026-03-12 09:25:12 - DEBUG - Baixando: 6% - Velocidade: 6872.64 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 6%
+2026-03-12 09:25:12 - DEBUG - Baixando: 6% - Velocidade: 11415.78 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 6%
+2026-03-12 09:25:12 - DEBUG - Baixando: 6% - Velocidade: 19483.42 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 6%
+2026-03-12 09:25:12 - DEBUG - Baixando: 6% - Velocidade: 29940.86 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 6%
+2026-03-12 09:25:12 - DEBUG - Baixando: 6% - Velocidade: 48579.74 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 6%
+2026-03-12 09:25:12 - DEBUG - Baixando: 6% - Velocidade: 81034.43 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 6%
+2026-03-12 09:25:12 - DEBUG - Baixando: 6% - Velocidade: 40390.37 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 6%
+2026-03-12 09:25:12 - DEBUG - Baixando: 6% - Velocidade: 56916.44 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 7%
+2026-03-12 09:25:12 - DEBUG - Baixando: 7% - Velocidade: 60269.92 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 7%
+2026-03-12 09:25:12 - DEBUG - Baixando: 7% - Velocidade: 66829.93 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 7%
+2026-03-12 09:25:12 - DEBUG - Baixando: 7% - Velocidade: 663.66 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 7%
+2026-03-12 09:25:12 - DEBUG - Baixando: 7% - Velocidade: 852.56 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 7%
+2026-03-12 09:25:12 - DEBUG - Baixando: 7% - Velocidade: 1548.78 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 7%
+2026-03-12 09:25:12 - DEBUG - Baixando: 7% - Velocidade: 2300.43 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 7%
+2026-03-12 09:25:12 - DEBUG - Baixando: 7% - Velocidade: 3491.22 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 7%
+2026-03-12 09:25:12 - DEBUG - Baixando: 7% - Velocidade: 6376.94 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 7%
+2026-03-12 09:25:12 - DEBUG - Baixando: 7% - Velocidade: 12855.10 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 7%
+2026-03-12 09:25:12 - DEBUG - Baixando: 7% - Velocidade: 22401.72 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 7%
+2026-03-12 09:25:12 - DEBUG - Baixando: 7% - Velocidade: 41252.01 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 7%
+2026-03-12 09:25:12 - DEBUG - Baixando: 7% - Velocidade: 76368.66 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 7%
+2026-03-12 09:25:12 - DEBUG - Baixando: 7% - Velocidade: 29824.65 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 8%
+2026-03-12 09:25:12 - DEBUG - Baixando: 8% - Velocidade: 47250.57 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:12 - DEBUG - Progresso atualizado: 8%
+2026-03-12 09:25:12 - DEBUG - Baixando: 8% - Velocidade: 59012.50 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 8%
+2026-03-12 09:25:13 - DEBUG - Baixando: 8% - Velocidade: 62977.69 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 8%
+2026-03-12 09:25:13 - DEBUG - Baixando: 8% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 8%
+2026-03-12 09:25:13 - DEBUG - Baixando: 8% - Velocidade: 2999.50 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 8%
+2026-03-12 09:25:13 - DEBUG - Baixando: 8% - Velocidade: 3501.09 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 8%
+2026-03-12 09:25:13 - DEBUG - Baixando: 8% - Velocidade: 5000.76 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 8%
+2026-03-12 09:25:13 - DEBUG - Baixando: 8% - Velocidade: 10334.90 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 8%
+2026-03-12 09:25:13 - DEBUG - Baixando: 8% - Velocidade: 13981.01 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 8%
+2026-03-12 09:25:13 - DEBUG - Baixando: 8% - Velocidade: 23045.63 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 9%
+2026-03-12 09:25:13 - DEBUG - Baixando: 9% - Velocidade: 6423.44 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 9%
+2026-03-12 09:25:13 - DEBUG - Baixando: 9% - Velocidade: 12105.97 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 9%
+2026-03-12 09:25:13 - DEBUG - Baixando: 9% - Velocidade: 21894.83 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 9%
+2026-03-12 09:25:13 - DEBUG - Baixando: 9% - Velocidade: 36033.21 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 9%
+2026-03-12 09:25:13 - DEBUG - Baixando: 9% - Velocidade: 49966.62 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 10%
+2026-03-12 09:25:13 - INFO - Baixando: 10% - Velocidade: 59106.52 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 10%
+2026-03-12 09:25:13 - INFO - Baixando: 10% - Velocidade: 62178.44 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 10%
+2026-03-12 09:25:13 - INFO - Baixando: 10% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 10%
+2026-03-12 09:25:13 - INFO - Baixando: 10% - Velocidade: 1497.43 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 10%
+2026-03-12 09:25:13 - INFO - Baixando: 10% - Velocidade: 2332.95 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 10%
+2026-03-12 09:25:13 - INFO - Baixando: 10% - Velocidade: 2999.36 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 10%
+2026-03-12 09:25:13 - INFO - Baixando: 10% - Velocidade: 6198.68 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 10%
+2026-03-12 09:25:13 - INFO - Baixando: 10% - Velocidade: 9680.94 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 10%
+2026-03-12 09:25:13 - INFO - Baixando: 10% - Velocidade: 19515.54 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 10%
+2026-03-12 09:25:13 - INFO - Baixando: 10% - Velocidade: 28268.73 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 10%
+2026-03-12 09:25:13 - INFO - Baixando: 10% - Velocidade: 46359.43 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 10%
+2026-03-12 09:25:13 - INFO - Baixando: 10% - Velocidade: 78568.32 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 10%
+2026-03-12 09:25:13 - INFO - Baixando: 10% - Velocidade: 110410.49 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 10%
+2026-03-12 09:25:13 - INFO - Baixando: 10% - Velocidade: 49331.57 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 11%
+2026-03-12 09:25:13 - DEBUG - Baixando: 11% - Velocidade: 35335.87 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 11%
+2026-03-12 09:25:13 - DEBUG - Baixando: 11% - Velocidade: 40634.97 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 11%
+2026-03-12 09:25:13 - DEBUG - Baixando: 11% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 11%
+2026-03-12 09:25:13 - DEBUG - Baixando: 11% - Velocidade: 2995.22 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 11%
+2026-03-12 09:25:13 - DEBUG - Baixando: 11% - Velocidade: 3499.42 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 11%
+2026-03-12 09:25:13 - DEBUG - Baixando: 11% - Velocidade: 3749.38 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 11%
+2026-03-12 09:25:13 - DEBUG - Baixando: 11% - Velocidade: 6197.79 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 11%
+2026-03-12 09:25:13 - DEBUG - Baixando: 11% - Velocidade: 9987.57 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 11%
+2026-03-12 09:25:13 - DEBUG - Baixando: 11% - Velocidade: 17378.77 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 11%
+2026-03-12 09:25:13 - DEBUG - Baixando: 11% - Velocidade: 30693.55 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 11%
+2026-03-12 09:25:13 - DEBUG - Baixando: 11% - Velocidade: 49570.72 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 11%
+2026-03-12 09:25:13 - DEBUG - Baixando: 11% - Velocidade: 25306.23 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 11%
+2026-03-12 09:25:13 - DEBUG - Baixando: 11% - Velocidade: 40995.95 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 12%
+2026-03-12 09:25:13 - DEBUG - Baixando: 12% - Velocidade: 59897.52 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 12%
+2026-03-12 09:25:13 - DEBUG - Baixando: 12% - Velocidade: 77950.22 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 12%
+2026-03-12 09:25:13 - DEBUG - Baixando: 12% - Velocidade: 82927.17 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 12%
+2026-03-12 09:25:13 - DEBUG - Baixando: 12% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 12%
+2026-03-12 09:25:13 - DEBUG - Baixando: 12% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 12%
+2026-03-12 09:25:13 - DEBUG - Baixando: 12% - Velocidade: 2333.13 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 12%
+2026-03-12 09:25:13 - DEBUG - Baixando: 12% - Velocidade: 3001.22 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 12%
+2026-03-12 09:25:13 - DEBUG - Baixando: 12% - Velocidade: 5168.89 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 12%
+2026-03-12 09:25:13 - DEBUG - Baixando: 12% - Velocidade: 9003.11 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 12%
+2026-03-12 09:25:13 - DEBUG - Baixando: 12% - Velocidade: 14056.65 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 12%
+2026-03-12 09:25:13 - DEBUG - Baixando: 12% - Velocidade: 25403.12 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 12%
+2026-03-12 09:25:13 - DEBUG - Baixando: 12% - Velocidade: 46305.35 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 12%
+2026-03-12 09:25:13 - DEBUG - Baixando: 12% - Velocidade: 84996.10 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 13%
+2026-03-12 09:25:13 - DEBUG - Baixando: 13% - Velocidade: 113145.94 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 13%
+2026-03-12 09:25:13 - DEBUG - Baixando: 13% - Velocidade: 38163.33 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 13%
+2026-03-12 09:25:13 - DEBUG - Baixando: 13% - Velocidade: 56791.47 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 14%
+2026-03-12 09:25:13 - DEBUG - Baixando: 14% - Velocidade: 57382.28 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 14%
+2026-03-12 09:25:13 - DEBUG - Baixando: 14% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 14%
+2026-03-12 09:25:13 - DEBUG - Baixando: 14% - Velocidade: 2998.07 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 14%
+2026-03-12 09:25:13 - DEBUG - Baixando: 14% - Velocidade: 2331.28 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 14%
+2026-03-12 09:25:13 - DEBUG - Baixando: 14% - Velocidade: 2998.50 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 14%
+2026-03-12 09:25:13 - DEBUG - Baixando: 14% - Velocidade: 5164.78 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 14%
+2026-03-12 09:25:13 - DEBUG - Baixando: 14% - Velocidade: 8619.28 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 14%
+2026-03-12 09:25:13 - DEBUG - Baixando: 14% - Velocidade: 15281.77 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 14%
+2026-03-12 09:25:13 - DEBUG - Baixando: 14% - Velocidade: 27390.58 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 14%
+2026-03-12 09:25:13 - DEBUG - Baixando: 14% - Velocidade: 45189.43 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 14%
+2026-03-12 09:25:13 - DEBUG - Baixando: 14% - Velocidade: 66810.54 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 14%
+2026-03-12 09:25:13 - DEBUG - Baixando: 14% - Velocidade: 108761.48 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 14%
+2026-03-12 09:25:13 - DEBUG - Baixando: 14% - Velocidade: 111163.66 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 15%
+2026-03-12 09:25:13 - INFO - Baixando: 15% - Velocidade: 55829.90 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:13 - DEBUG - Progresso atualizado: 15%
+2026-03-12 09:25:13 - INFO - Baixando: 15% - Velocidade: 62846.13 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 15%
+2026-03-12 09:25:14 - INFO - Baixando: 15% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 15%
+2026-03-12 09:25:14 - INFO - Baixando: 15% - Velocidade: 1990.34 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 15%
+2026-03-12 09:25:14 - INFO - Baixando: 15% - Velocidade: 2786.38 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 15%
+2026-03-12 09:25:14 - INFO - Baixando: 15% - Velocidade: 3326.35 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 15%
+2026-03-12 09:25:14 - INFO - Baixando: 15% - Velocidade: 5622.88 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 15%
+2026-03-12 09:25:14 - INFO - Baixando: 15% - Velocidade: 9674.91 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 15%
+2026-03-12 09:25:14 - INFO - Baixando: 15% - Velocidade: 16908.76 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 15%
+2026-03-12 09:25:14 - INFO - Baixando: 15% - Velocidade: 26812.42 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 15%
+2026-03-12 09:25:14 - INFO - Baixando: 15% - Velocidade: 42507.03 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 15%
+2026-03-12 09:25:14 - INFO - Baixando: 15% - Velocidade: 78551.06 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 15%
+2026-03-12 09:25:14 - INFO - Baixando: 15% - Velocidade: 113580.01 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 15%
+2026-03-12 09:25:14 - INFO - Baixando: 15% - Velocidade: 111994.33 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 16%
+2026-03-12 09:25:14 - DEBUG - Baixando: 16% - Velocidade: 111128.68 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 16%
+2026-03-12 09:25:14 - DEBUG - Baixando: 16% - Velocidade: 72750.30 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 16%
+2026-03-12 09:25:14 - DEBUG - Baixando: 16% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 16%
+2026-03-12 09:25:14 - DEBUG - Baixando: 16% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 16%
+2026-03-12 09:25:14 - DEBUG - Baixando: 16% - Velocidade: 3500.25 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 16%
+2026-03-12 09:25:14 - DEBUG - Baixando: 16% - Velocidade: 7500.54 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 16%
+2026-03-12 09:25:14 - DEBUG - Baixando: 16% - Velocidade: 8845.73 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 16%
+2026-03-12 09:25:14 - DEBUG - Baixando: 16% - Velocidade: 17976.81 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 16%
+2026-03-12 09:25:14 - DEBUG - Baixando: 16% - Velocidade: 25359.51 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 16%
+2026-03-12 09:25:14 - DEBUG - Baixando: 16% - Velocidade: 36365.56 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 16%
+2026-03-12 09:25:14 - DEBUG - Baixando: 16% - Velocidade: 56700.78 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 16%
+2026-03-12 09:25:14 - DEBUG - Baixando: 16% - Velocidade: 85159.73 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 16%
+2026-03-12 09:25:14 - DEBUG - Baixando: 16% - Velocidade: 94732.93 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 17%
+2026-03-12 09:25:14 - DEBUG - Baixando: 17% - Velocidade: 105958.59 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 17%
+2026-03-12 09:25:14 - DEBUG - Baixando: 17% - Velocidade: 89989.45 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 17%
+2026-03-12 09:25:14 - DEBUG - Baixando: 17% - Velocidade: 80626.17 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 17%
+2026-03-12 09:25:14 - DEBUG - Baixando: 17% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 17%
+2026-03-12 09:25:14 - DEBUG - Baixando: 17% - Velocidade: 2814.34 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 17%
+2026-03-12 09:25:14 - DEBUG - Baixando: 17% - Velocidade: 3378.61 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 17%
+2026-03-12 09:25:14 - DEBUG - Baixando: 17% - Velocidade: 3683.52 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 17%
+2026-03-12 09:25:14 - DEBUG - Baixando: 17% - Velocidade: 5106.97 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 17%
+2026-03-12 09:25:14 - DEBUG - Baixando: 17% - Velocidade: 7802.32 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 17%
+2026-03-12 09:25:14 - DEBUG - Baixando: 17% - Velocidade: 14002.33 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 17%
+2026-03-12 09:25:14 - DEBUG - Baixando: 17% - Velocidade: 25317.73 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 18%
+2026-03-12 09:25:14 - DEBUG - Baixando: 18% - Velocidade: 46156.76 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 18%
+2026-03-12 09:25:14 - DEBUG - Baixando: 18% - Velocidade: 78069.41 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 18%
+2026-03-12 09:25:14 - DEBUG - Baixando: 18% - Velocidade: 39915.48 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 18%
+2026-03-12 09:25:14 - DEBUG - Baixando: 18% - Velocidade: 43446.75 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 19%
+2026-03-12 09:25:14 - DEBUG - Baixando: 19% - Velocidade: 46546.24 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 19%
+2026-03-12 09:25:14 - DEBUG - Baixando: 19% - Velocidade: 52256.38 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 19%
+2026-03-12 09:25:14 - DEBUG - Baixando: 19% - Velocidade: 996.04 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 19%
+2026-03-12 09:25:14 - DEBUG - Baixando: 19% - Velocidade: 995.09 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 19%
+2026-03-12 09:25:14 - DEBUG - Baixando: 19% - Velocidade: 1390.16 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 19%
+2026-03-12 09:25:14 - DEBUG - Baixando: 19% - Velocidade: 2483.31 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 19%
+2026-03-12 09:25:14 - DEBUG - Baixando: 19% - Velocidade: 4404.44 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 19%
+2026-03-12 09:25:14 - DEBUG - Baixando: 19% - Velocidade: 6970.04 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 19%
+2026-03-12 09:25:14 - DEBUG - Baixando: 19% - Velocidade: 12650.85 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 19%
+2026-03-12 09:25:14 - DEBUG - Baixando: 19% - Velocidade: 21836.86 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 19%
+2026-03-12 09:25:14 - DEBUG - Baixando: 19% - Velocidade: 34738.39 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 19%
+2026-03-12 09:25:14 - DEBUG - Baixando: 19% - Velocidade: 61219.80 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 19%
+2026-03-12 09:25:14 - DEBUG - Baixando: 19% - Velocidade: 103856.83 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 19%
+2026-03-12 09:25:14 - DEBUG - Baixando: 19% - Velocidade: 90353.11 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 20%
+2026-03-12 09:25:14 - INFO - Baixando: 20% - Velocidade: 54523.96 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 20%
+2026-03-12 09:25:14 - INFO - Baixando: 20% - Velocidade: 48471.68 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 20%
+2026-03-12 09:25:14 - INFO - Baixando: 20% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 20%
+2026-03-12 09:25:14 - INFO - Baixando: 20% - Velocidade: 1497.79 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 20%
+2026-03-12 09:25:14 - INFO - Baixando: 20% - Velocidade: 2331.65 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 20%
+2026-03-12 09:25:14 - INFO - Baixando: 20% - Velocidade: 3746.03 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 20%
+2026-03-12 09:25:14 - INFO - Baixando: 20% - Velocidade: 5628.48 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 20%
+2026-03-12 09:25:14 - INFO - Baixando: 20% - Velocidade: 9669.95 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 20%
+2026-03-12 09:25:14 - INFO - Baixando: 20% - Velocidade: 19493.40 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 20%
+2026-03-12 09:25:14 - INFO - Baixando: 20% - Velocidade: 33914.05 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 20%
+2026-03-12 09:25:14 - INFO - Baixando: 20% - Velocidade: 53686.92 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 20%
+2026-03-12 09:25:14 - INFO - Baixando: 20% - Velocidade: 97256.74 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 20%
+2026-03-12 09:25:14 - INFO - Baixando: 20% - Velocidade: 110427.53 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 21%
+2026-03-12 09:25:14 - DEBUG - Baixando: 21% - Velocidade: 108999.31 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 21%
+2026-03-12 09:25:14 - DEBUG - Baixando: 21% - Velocidade: 111566.43 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 21%
+2026-03-12 09:25:14 - DEBUG - Baixando: 21% - Velocidade: 50051.95 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 21%
+2026-03-12 09:25:14 - DEBUG - Baixando: 21% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 21%
+2026-03-12 09:25:14 - DEBUG - Baixando: 21% - Velocidade: 999.99 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 21%
+2026-03-12 09:25:14 - DEBUG - Baixando: 21% - Velocidade: 1750.02 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 21%
+2026-03-12 09:25:14 - DEBUG - Baixando: 21% - Velocidade: 2499.49 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 21%
+2026-03-12 09:25:14 - DEBUG - Baixando: 21% - Velocidade: 4425.43 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 21%
+2026-03-12 09:25:14 - DEBUG - Baixando: 21% - Velocidade: 7870.41 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 21%
+2026-03-12 09:25:14 - DEBUG - Baixando: 21% - Velocidade: 14925.93 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 21%
+2026-03-12 09:25:14 - DEBUG - Baixando: 21% - Velocidade: 26803.69 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 21%
+2026-03-12 09:25:14 - DEBUG - Baixando: 21% - Velocidade: 48586.34 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 21%
+2026-03-12 09:25:14 - DEBUG - Baixando: 21% - Velocidade: 88824.85 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:14 - DEBUG - Progresso atualizado: 22%
+2026-03-12 09:25:14 - DEBUG - Baixando: 22% - Velocidade: 107570.51 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 22%
+2026-03-12 09:25:15 - DEBUG - Baixando: 22% - Velocidade: 58691.96 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 22%
+2026-03-12 09:25:15 - DEBUG - Baixando: 22% - Velocidade: 44129.36 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 23%
+2026-03-12 09:25:15 - DEBUG - Baixando: 23% - Velocidade: 49859.35 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 23%
+2026-03-12 09:25:15 - DEBUG - Baixando: 23% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 23%
+2026-03-12 09:25:15 - DEBUG - Baixando: 23% - Velocidade: 2999.50 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 23%
+2026-03-12 09:25:15 - DEBUG - Baixando: 23% - Velocidade: 2792.74 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 23%
+2026-03-12 09:25:15 - DEBUG - Baixando: 23% - Velocidade: 3325.12 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 23%
+2026-03-12 09:25:15 - DEBUG - Baixando: 23% - Velocidade: 6871.91 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 23%
+2026-03-12 09:25:15 - DEBUG - Baixando: 23% - Velocidade: 11429.12 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 23%
+2026-03-12 09:25:15 - DEBUG - Baixando: 23% - Velocidade: 23039.65 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 23%
+2026-03-12 09:25:15 - DEBUG - Baixando: 23% - Velocidade: 31793.92 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 23%
+2026-03-12 09:25:15 - DEBUG - Baixando: 23% - Velocidade: 56616.90 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 23%
+2026-03-12 09:25:15 - DEBUG - Baixando: 23% - Velocidade: 102044.64 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 23%
+2026-03-12 09:25:15 - DEBUG - Baixando: 23% - Velocidade: 116703.23 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 23%
+2026-03-12 09:25:15 - DEBUG - Baixando: 23% - Velocidade: 107177.82 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 24%
+2026-03-12 09:25:15 - DEBUG - Baixando: 24% - Velocidade: 106517.92 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 24%
+2026-03-12 09:25:15 - DEBUG - Baixando: 24% - Velocidade: 78382.85 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 24%
+2026-03-12 09:25:15 - DEBUG - Baixando: 24% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 24%
+2026-03-12 09:25:15 - DEBUG - Baixando: 24% - Velocidade: 1196.21 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 24%
+2026-03-12 09:25:15 - DEBUG - Baixando: 24% - Velocidade: 1742.54 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 24%
+2026-03-12 09:25:15 - DEBUG - Baixando: 24% - Velocidade: 2989.53 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 24%
+2026-03-12 09:25:15 - DEBUG - Baixando: 24% - Velocidade: 5151.89 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 24%
+2026-03-12 09:25:15 - DEBUG - Baixando: 24% - Velocidade: 8979.24 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 24%
+2026-03-12 09:25:15 - DEBUG - Baixando: 24% - Velocidade: 16750.84 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 24%
+2026-03-12 09:25:15 - DEBUG - Baixando: 24% - Velocidade: 24087.82 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 24%
+2026-03-12 09:25:15 - DEBUG - Baixando: 24% - Velocidade: 40588.76 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 24%
+2026-03-12 09:25:15 - DEBUG - Baixando: 24% - Velocidade: 72561.40 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 24%
+2026-03-12 09:25:15 - DEBUG - Baixando: 24% - Velocidade: 55809.91 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 24%
+2026-03-12 09:25:15 - DEBUG - Baixando: 24% - Velocidade: 70732.73 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 25%
+2026-03-12 09:25:15 - INFO - Baixando: 25% - Velocidade: 85801.77 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 25%
+2026-03-12 09:25:15 - INFO - Baixando: 25% - Velocidade: 78805.33 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 25%
+2026-03-12 09:25:15 - INFO - Baixando: 25% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 25%
+2026-03-12 09:25:15 - INFO - Baixando: 25% - Velocidade: 1618.59 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 25%
+2026-03-12 09:25:15 - INFO - Baixando: 25% - Velocidade: 1814.48 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 25%
+2026-03-12 09:25:15 - INFO - Baixando: 25% - Velocidade: 2794.71 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 25%
+2026-03-12 09:25:15 - INFO - Baixando: 25% - Velocidade: 5775.74 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 25%
+2026-03-12 09:25:15 - INFO - Baixando: 25% - Velocidade: 8545.69 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 25%
+2026-03-12 09:25:15 - INFO - Baixando: 25% - Velocidade: 17227.02 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 25%
+2026-03-12 09:25:15 - INFO - Baixando: 25% - Velocidade: 27205.26 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 25%
+2026-03-12 09:25:15 - INFO - Baixando: 25% - Velocidade: 49269.89 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 25%
+2026-03-12 09:25:15 - INFO - Baixando: 25% - Velocidade: 89958.97 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 26%
+2026-03-12 09:25:15 - DEBUG - Baixando: 26% - Velocidade: 112094.16 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 26%
+2026-03-12 09:25:15 - DEBUG - Baixando: 26% - Velocidade: 45829.91 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 26%
+2026-03-12 09:25:15 - DEBUG - Baixando: 26% - Velocidade: 48131.23 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 27%
+2026-03-12 09:25:15 - DEBUG - Baixando: 27% - Velocidade: 53406.02 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 27%
+2026-03-12 09:25:15 - DEBUG - Baixando: 27% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 27%
+2026-03-12 09:25:15 - DEBUG - Baixando: 27% - Velocidade: 1853.70 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 27%
+2026-03-12 09:25:15 - DEBUG - Baixando: 27% - Velocidade: 1931.97 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 27%
+2026-03-12 09:25:15 - DEBUG - Baixando: 27% - Velocidade: 2667.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 27%
+2026-03-12 09:25:15 - DEBUG - Baixando: 27% - Velocidade: 4678.78 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 27%
+2026-03-12 09:25:15 - DEBUG - Baixando: 27% - Velocidade: 7748.78 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 27%
+2026-03-12 09:25:15 - DEBUG - Baixando: 27% - Velocidade: 13085.31 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 27%
+2026-03-12 09:25:15 - DEBUG - Baixando: 27% - Velocidade: 24963.76 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 27%
+2026-03-12 09:25:15 - DEBUG - Baixando: 27% - Velocidade: 41826.81 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 27%
+2026-03-12 09:25:15 - DEBUG - Baixando: 27% - Velocidade: 77366.99 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 27%
+2026-03-12 09:25:15 - DEBUG - Baixando: 27% - Velocidade: 29860.95 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 27%
+2026-03-12 09:25:15 - DEBUG - Baixando: 27% - Velocidade: 47109.30 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 28%
+2026-03-12 09:25:15 - DEBUG - Baixando: 28% - Velocidade: 32161.82 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 28%
+2026-03-12 09:25:15 - DEBUG - Baixando: 28% - Velocidade: 37234.24 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 28%
+2026-03-12 09:25:15 - DEBUG - Baixando: 28% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 28%
+2026-03-12 09:25:15 - DEBUG - Baixando: 28% - Velocidade: 2993.08 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 28%
+2026-03-12 09:25:15 - DEBUG - Baixando: 28% - Velocidade: 3499.42 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 28%
+2026-03-12 09:25:15 - DEBUG - Baixando: 28% - Velocidade: 3326.70 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 28%
+2026-03-12 09:25:15 - DEBUG - Baixando: 28% - Velocidade: 5620.69 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 28%
+2026-03-12 09:25:15 - DEBUG - Baixando: 28% - Velocidade: 9670.31 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 28%
+2026-03-12 09:25:15 - DEBUG - Baixando: 28% - Velocidade: 16898.03 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 28%
+2026-03-12 09:25:15 - DEBUG - Baixando: 28% - Velocidade: 26801.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 28%
+2026-03-12 09:25:15 - DEBUG - Baixando: 28% - Velocidade: 40830.78 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 28%
+2026-03-12 09:25:15 - DEBUG - Baixando: 28% - Velocidade: 63831.79 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:15 - DEBUG - Progresso atualizado: 28%
+2026-03-12 09:25:15 - DEBUG - Baixando: 28% - Velocidade: 92942.40 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 28%
+2026-03-12 09:25:16 - DEBUG - Baixando: 28% - Velocidade: 102014.52 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 29%
+2026-03-12 09:25:16 - DEBUG - Baixando: 29% - Velocidade: 106659.12 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 29%
+2026-03-12 09:25:16 - DEBUG - Baixando: 29% - Velocidade: 101814.59 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 29%
+2026-03-12 09:25:16 - DEBUG - Baixando: 29% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 29%
+2026-03-12 09:25:16 - DEBUG - Baixando: 29% - Velocidade: 2848.75 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 29%
+2026-03-12 09:25:16 - DEBUG - Baixando: 29% - Velocidade: 2289.82 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 29%
+2026-03-12 09:25:16 - DEBUG - Baixando: 29% - Velocidade: 3693.47 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 29%
+2026-03-12 09:25:16 - DEBUG - Baixando: 29% - Velocidade: 6125.09 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 29%
+2026-03-12 09:25:16 - DEBUG - Baixando: 29% - Velocidade: 10395.01 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 29%
+2026-03-12 09:25:16 - DEBUG - Baixando: 29% - Velocidade: 20955.02 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 29%
+2026-03-12 09:25:16 - DEBUG - Baixando: 29% - Velocidade: 31633.12 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 29%
+2026-03-12 09:25:16 - DEBUG - Baixando: 29% - Velocidade: 56400.87 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 29%
+2026-03-12 09:25:16 - DEBUG - Baixando: 29% - Velocidade: 72473.15 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 29%
+2026-03-12 09:25:16 - DEBUG - Baixando: 29% - Velocidade: 81431.60 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 30%
+2026-03-12 09:25:16 - INFO - Baixando: 30% - Velocidade: 26049.05 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 30%
+2026-03-12 09:25:16 - INFO - Baixando: 30% - Velocidade: 37401.12 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 30%
+2026-03-12 09:25:16 - INFO - Baixando: 30% - Velocidade: 42994.55 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 30%
+2026-03-12 09:25:16 - INFO - Baixando: 30% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 30%
+2026-03-12 09:25:16 - INFO - Baixando: 30% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 30%
+2026-03-12 09:25:16 - INFO - Baixando: 30% - Velocidade: 1553.04 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 30%
+2026-03-12 09:25:16 - INFO - Baixando: 30% - Velocidade: 3327.93 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 30%
+2026-03-12 09:25:16 - INFO - Baixando: 30% - Velocidade: 4763.81 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 30%
+2026-03-12 09:25:16 - INFO - Baixando: 30% - Velocidade: 8391.27 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 30%
+2026-03-12 09:25:16 - INFO - Baixando: 30% - Velocidade: 13228.61 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 30%
+2026-03-12 09:25:16 - INFO - Baixando: 30% - Velocidade: 24056.40 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 30%
+2026-03-12 09:25:16 - INFO - Baixando: 30% - Velocidade: 40554.20 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 31%
+2026-03-12 09:25:16 - DEBUG - Baixando: 31% - Velocidade: 75198.88 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 31%
+2026-03-12 09:25:16 - DEBUG - Baixando: 31% - Velocidade: 99291.55 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 31%
+2026-03-12 09:25:16 - DEBUG - Baixando: 31% - Velocidade: 59464.53 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 31%
+2026-03-12 09:25:16 - DEBUG - Baixando: 31% - Velocidade: 51627.23 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 32%
+2026-03-12 09:25:16 - DEBUG - Baixando: 32% - Velocidade: 49904.85 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 32%
+2026-03-12 09:25:16 - DEBUG - Baixando: 32% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 32%
+2026-03-12 09:25:16 - DEBUG - Baixando: 32% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 32%
+2026-03-12 09:25:16 - DEBUG - Baixando: 32% - Velocidade: 2795.67 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 32%
+2026-03-12 09:25:16 - DEBUG - Baixando: 32% - Velocidade: 4276.12 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 32%
+2026-03-12 09:25:16 - DEBUG - Baixando: 32% - Velocidade: 6864.65 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 32%
+2026-03-12 09:25:16 - DEBUG - Baixando: 32% - Velocidade: 11427.14 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 32%
+2026-03-12 09:25:16 - DEBUG - Baixando: 32% - Velocidade: 16906.61 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 32%
+2026-03-12 09:25:16 - DEBUG - Baixando: 32% - Velocidade: 29949.25 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 32%
+2026-03-12 09:25:16 - DEBUG - Baixando: 32% - Velocidade: 53705.76 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 32%
+2026-03-12 09:25:16 - DEBUG - Baixando: 32% - Velocidade: 88854.28 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 32%
+2026-03-12 09:25:16 - DEBUG - Baixando: 32% - Velocidade: 110461.63 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 32%
+2026-03-12 09:25:16 - DEBUG - Baixando: 32% - Velocidade: 108579.67 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 33%
+2026-03-12 09:25:16 - DEBUG - Baixando: 33% - Velocidade: 76800.48 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 33%
+2026-03-12 09:25:16 - DEBUG - Baixando: 33% - Velocidade: 39096.99 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 33%
+2026-03-12 09:25:16 - DEBUG - Baixando: 33% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 33%
+2026-03-12 09:25:16 - DEBUG - Baixando: 33% - Velocidade: 2988.82 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 33%
+2026-03-12 09:25:16 - DEBUG - Baixando: 33% - Velocidade: 2306.92 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 33%
+2026-03-12 09:25:16 - DEBUG - Baixando: 33% - Velocidade: 3722.09 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 33%
+2026-03-12 09:25:16 - DEBUG - Baixando: 33% - Velocidade: 6164.29 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 33%
+2026-03-12 09:25:16 - DEBUG - Baixando: 33% - Velocidade: 8963.10 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 33%
+2026-03-12 09:25:16 - DEBUG - Baixando: 33% - Velocidade: 15818.16 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 33%
+2026-03-12 09:25:16 - DEBUG - Baixando: 33% - Velocidade: 25418.21 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 33%
+2026-03-12 09:25:16 - DEBUG - Baixando: 33% - Velocidade: 42484.28 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 33%
+2026-03-12 09:25:16 - DEBUG - Baixando: 33% - Velocidade: 77729.99 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 33%
+2026-03-12 09:25:16 - DEBUG - Baixando: 33% - Velocidade: 109629.45 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 34%
+2026-03-12 09:25:16 - DEBUG - Baixando: 34% - Velocidade: 111306.30 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 34%
+2026-03-12 09:25:16 - DEBUG - Baixando: 34% - Velocidade: 110359.05 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 34%
+2026-03-12 09:25:16 - DEBUG - Baixando: 34% - Velocidade: 112612.60 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 34%
+2026-03-12 09:25:16 - DEBUG - Baixando: 34% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 34%
+2026-03-12 09:25:16 - DEBUG - Baixando: 34% - Velocidade: 2837.18 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 34%
+2026-03-12 09:25:16 - DEBUG - Baixando: 34% - Velocidade: 2289.65 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 34%
+2026-03-12 09:25:16 - DEBUG - Baixando: 34% - Velocidade: 3697.59 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 34%
+2026-03-12 09:25:16 - DEBUG - Baixando: 34% - Velocidade: 6127.98 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 34%
+2026-03-12 09:25:16 - DEBUG - Baixando: 34% - Velocidade: 10398.28 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 34%
+2026-03-12 09:25:16 - DEBUG - Baixando: 34% - Velocidade: 17995.22 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 34%
+2026-03-12 09:25:16 - DEBUG - Baixando: 34% - Velocidade: 31645.29 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 34%
+2026-03-12 09:25:16 - DEBUG - Baixando: 34% - Velocidade: 56414.23 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 34%
+2026-03-12 09:25:16 - DEBUG - Baixando: 34% - Velocidade: 96870.30 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:16 - DEBUG - Progresso atualizado: 35%
+2026-03-12 09:25:16 - INFO - Baixando: 35% - Velocidade: 107352.62 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 35%
+2026-03-12 09:25:17 - INFO - Baixando: 35% - Velocidade: 76822.19 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 35%
+2026-03-12 09:25:17 - INFO - Baixando: 35% - Velocidade: 61002.02 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 36%
+2026-03-12 09:25:17 - DEBUG - Baixando: 36% - Velocidade: 45413.95 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 36%
+2026-03-12 09:25:17 - DEBUG - Baixando: 36% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 36%
+2026-03-12 09:25:17 - DEBUG - Baixando: 36% - Velocidade: 2666.44 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 36%
+2026-03-12 09:25:17 - DEBUG - Baixando: 36% - Velocidade: 2239.01 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 36%
+2026-03-12 09:25:17 - DEBUG - Baixando: 36% - Velocidade: 3234.68 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 36%
+2026-03-12 09:25:17 - DEBUG - Baixando: 36% - Velocidade: 4671.89 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 36%
+2026-03-12 09:25:17 - DEBUG - Baixando: 36% - Velocidade: 8251.09 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 36%
+2026-03-12 09:25:17 - DEBUG - Baixando: 36% - Velocidade: 13895.67 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 36%
+2026-03-12 09:25:17 - DEBUG - Baixando: 36% - Velocidade: 22878.02 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 36%
+2026-03-12 09:25:17 - DEBUG - Baixando: 36% - Velocidade: 38850.23 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 36%
+2026-03-12 09:25:17 - DEBUG - Baixando: 36% - Velocidade: 72296.09 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 36%
+2026-03-12 09:25:17 - DEBUG - Baixando: 36% - Velocidade: 106895.51 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 36%
+2026-03-12 09:25:17 - DEBUG - Baixando: 36% - Velocidade: 110397.70 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 37%
+2026-03-12 09:25:17 - DEBUG - Baixando: 37% - Velocidade: 82656.18 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 37%
+2026-03-12 09:25:17 - DEBUG - Baixando: 37% - Velocidade: 57984.44 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 37%
+2026-03-12 09:25:17 - DEBUG - Baixando: 37% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 37%
+2026-03-12 09:25:17 - DEBUG - Baixando: 37% - Velocidade: 1494.23 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 37%
+2026-03-12 09:25:17 - DEBUG - Baixando: 37% - Velocidade: 1746.69 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 37%
+2026-03-12 09:25:17 - DEBUG - Baixando: 37% - Velocidade: 2496.61 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 37%
+2026-03-12 09:25:17 - DEBUG - Baixando: 37% - Velocidade: 4422.26 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 37%
+2026-03-12 09:25:17 - DEBUG - Baixando: 37% - Velocidade: 8987.18 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 37%
+2026-03-12 09:25:17 - DEBUG - Baixando: 37% - Velocidade: 14913.39 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 37%
+2026-03-12 09:25:17 - DEBUG - Baixando: 37% - Velocidade: 29944.22 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 37%
+2026-03-12 09:25:17 - DEBUG - Baixando: 37% - Velocidade: 44344.22 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 37%
+2026-03-12 09:25:17 - DEBUG - Baixando: 37% - Velocidade: 75047.63 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 37%
+2026-03-12 09:25:17 - DEBUG - Baixando: 37% - Velocidade: 112838.13 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 37%
+2026-03-12 09:25:17 - DEBUG - Baixando: 37% - Velocidade: 95696.34 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 38%
+2026-03-12 09:25:17 - DEBUG - Baixando: 38% - Velocidade: 60255.86 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 38%
+2026-03-12 09:25:17 - DEBUG - Baixando: 38% - Velocidade: 66283.74 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 38%
+2026-03-12 09:25:17 - DEBUG - Baixando: 38% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 38%
+2026-03-12 09:25:17 - DEBUG - Baixando: 38% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 38%
+2026-03-12 09:25:17 - DEBUG - Baixando: 38% - Velocidade: 2296.09 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 38%
+2026-03-12 09:25:17 - DEBUG - Baixando: 38% - Velocidade: 2970.47 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 38%
+2026-03-12 09:25:17 - DEBUG - Baixando: 38% - Velocidade: 5126.10 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 38%
+2026-03-12 09:25:17 - DEBUG - Baixando: 38% - Velocidade: 8939.15 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 38%
+2026-03-12 09:25:17 - DEBUG - Baixando: 38% - Velocidade: 15781.61 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 38%
+2026-03-12 09:25:17 - DEBUG - Baixando: 38% - Velocidade: 25365.77 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 38%
+2026-03-12 09:25:17 - DEBUG - Baixando: 38% - Velocidade: 46251.39 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 38%
+2026-03-12 09:25:17 - DEBUG - Baixando: 38% - Velocidade: 72482.95 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 38%
+2026-03-12 09:25:17 - DEBUG - Baixando: 38% - Velocidade: 112992.57 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 39%
+2026-03-12 09:25:17 - DEBUG - Baixando: 39% - Velocidade: 113079.70 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 39%
+2026-03-12 09:25:17 - DEBUG - Baixando: 39% - Velocidade: 30798.53 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 40%
+2026-03-12 09:25:17 - INFO - Baixando: 40% - Velocidade: 35390.56 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 40%
+2026-03-12 09:25:17 - INFO - Baixando: 40% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 40%
+2026-03-12 09:25:17 - INFO - Baixando: 40% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 40%
+2026-03-12 09:25:17 - INFO - Baixando: 40% - Velocidade: 3499.84 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 40%
+2026-03-12 09:25:17 - INFO - Baixando: 40% - Velocidade: 4998.38 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 40%
+2026-03-12 09:25:17 - INFO - Baixando: 40% - Velocidade: 7749.64 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 40%
+2026-03-12 09:25:17 - INFO - Baixando: 40% - Velocidade: 12507.86 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 40%
+2026-03-12 09:25:17 - INFO - Baixando: 40% - Velocidade: 18050.72 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 40%
+2026-03-12 09:25:17 - INFO - Baixando: 40% - Velocidade: 28223.97 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 40%
+2026-03-12 09:25:17 - INFO - Baixando: 40% - Velocidade: 50924.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 40%
+2026-03-12 09:25:17 - INFO - Baixando: 40% - Velocidade: 92707.32 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 40%
+2026-03-12 09:25:17 - INFO - Baixando: 40% - Velocidade: 113139.98 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 40%
+2026-03-12 09:25:17 - INFO - Baixando: 40% - Velocidade: 105703.62 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:17 - DEBUG - Progresso atualizado: 41%
+2026-03-12 09:25:17 - DEBUG - Baixando: 41% - Velocidade: 111754.06 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 41%
+2026-03-12 09:25:18 - DEBUG - Baixando: 41% - Velocidade: 59665.95 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 41%
+2026-03-12 09:25:18 - DEBUG - Baixando: 41% - Velocidade: 996.27 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 41%
+2026-03-12 09:25:18 - DEBUG - Baixando: 41% - Velocidade: 1497.79 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 41%
+2026-03-12 09:25:18 - DEBUG - Baixando: 41% - Velocidade: 1747.63 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 41%
+2026-03-12 09:25:18 - DEBUG - Baixando: 41% - Velocidade: 1874.13 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 41%
+2026-03-12 09:25:18 - DEBUG - Baixando: 41% - Velocidade: 3443.14 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 41%
+2026-03-12 09:25:18 - DEBUG - Baixando: 41% - Velocidade: 6251.12 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 41%
+2026-03-12 09:25:18 - DEBUG - Baixando: 41% - Velocidade: 11464.04 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 41%
+2026-03-12 09:25:18 - DEBUG - Baixando: 41% - Velocidade: 21112.27 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 41%
+2026-03-12 09:25:18 - DEBUG - Baixando: 41% - Velocidade: 36294.33 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 41%
+2026-03-12 09:25:18 - DEBUG - Baixando: 41% - Velocidade: 67843.67 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 41%
+2026-03-12 09:25:18 - DEBUG - Baixando: 41% - Velocidade: 107280.18 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 41%
+2026-03-12 09:25:18 - DEBUG - Baixando: 41% - Velocidade: 82064.04 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 42%
+2026-03-12 09:25:18 - DEBUG - Baixando: 42% - Velocidade: 93944.35 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 42%
+2026-03-12 09:25:18 - DEBUG - Baixando: 42% - Velocidade: 97565.91 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 42%
+2026-03-12 09:25:18 - DEBUG - Baixando: 42% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 42%
+2026-03-12 09:25:18 - DEBUG - Baixando: 42% - Velocidade: 2978.91 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 42%
+2026-03-12 09:25:18 - DEBUG - Baixando: 42% - Velocidade: 2319.68 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 42%
+2026-03-12 09:25:18 - DEBUG - Baixando: 42% - Velocidade: 3733.80 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 42%
+2026-03-12 09:25:18 - DEBUG - Baixando: 42% - Velocidade: 6179.23 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 42%
+2026-03-12 09:25:18 - DEBUG - Baixando: 42% - Velocidade: 10467.48 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 42%
+2026-03-12 09:25:18 - DEBUG - Baixando: 42% - Velocidade: 21101.12 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 42%
+2026-03-12 09:25:18 - DEBUG - Baixando: 42% - Velocidade: 31809.05 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 42%
+2026-03-12 09:25:18 - DEBUG - Baixando: 42% - Velocidade: 56657.31 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 42%
+2026-03-12 09:25:18 - DEBUG - Baixando: 42% - Velocidade: 78328.79 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 42%
+2026-03-12 09:25:18 - DEBUG - Baixando: 42% - Velocidade: 35418.70 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 43%
+2026-03-12 09:25:18 - DEBUG - Baixando: 43% - Velocidade: 40109.18 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 43%
+2026-03-12 09:25:18 - DEBUG - Baixando: 43% - Velocidade: 51237.01 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 43%
+2026-03-12 09:25:18 - DEBUG - Baixando: 43% - Velocidade: 56925.66 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 43%
+2026-03-12 09:25:18 - DEBUG - Baixando: 43% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 43%
+2026-03-12 09:25:18 - DEBUG - Baixando: 43% - Velocidade: 2997.36 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 43%
+2026-03-12 09:25:18 - DEBUG - Baixando: 43% - Velocidade: 2332.20 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 43%
+2026-03-12 09:25:18 - DEBUG - Baixando: 43% - Velocidade: 3324.24 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 43%
+2026-03-12 09:25:18 - DEBUG - Baixando: 43% - Velocidade: 5621.91 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 43%
+2026-03-12 09:25:18 - DEBUG - Baixando: 43% - Velocidade: 11425.16 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 43%
+2026-03-12 09:25:18 - DEBUG - Baixando: 43% - Velocidade: 16896.42 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 43%
+2026-03-12 09:25:18 - DEBUG - Baixando: 43% - Velocidade: 26796.30 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 43%
+2026-03-12 09:25:18 - DEBUG - Baixando: 43% - Velocidade: 48597.36 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 44%
+2026-03-12 09:25:18 - DEBUG - Baixando: 44% - Velocidade: 88841.40 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 44%
+2026-03-12 09:25:18 - DEBUG - Baixando: 44% - Velocidade: 97330.75 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 44%
+2026-03-12 09:25:18 - DEBUG - Baixando: 44% - Velocidade: 54320.91 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 44%
+2026-03-12 09:25:18 - DEBUG - Baixando: 44% - Velocidade: 53822.92 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 45%
+2026-03-12 09:25:18 - INFO - Baixando: 45% - Velocidade: 42102.67 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 45%
+2026-03-12 09:25:18 - INFO - Baixando: 45% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 45%
+2026-03-12 09:25:18 - INFO - Baixando: 45% - Velocidade: 1503.33 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 45%
+2026-03-12 09:25:18 - INFO - Baixando: 45% - Velocidade: 1751.28 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 45%
+2026-03-12 09:25:18 - INFO - Baixando: 45% - Velocidade: 2500.68 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 45%
+2026-03-12 09:25:18 - INFO - Baixando: 45% - Velocidade: 4429.35 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 45%
+2026-03-12 09:25:18 - INFO - Baixando: 45% - Velocidade: 7517.53 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 45%
+2026-03-12 09:25:18 - INFO - Baixando: 45% - Velocidade: 13538.95 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 45%
+2026-03-12 09:25:18 - INFO - Baixando: 45% - Velocidade: 24564.71 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 45%
+2026-03-12 09:25:18 - INFO - Baixando: 45% - Velocidade: 41275.84 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 45%
+2026-03-12 09:25:18 - INFO - Baixando: 45% - Velocidade: 68710.63 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 45%
+2026-03-12 09:25:18 - INFO - Baixando: 45% - Velocidade: 104943.47 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 45%
+2026-03-12 09:25:18 - INFO - Baixando: 45% - Velocidade: 110568.27 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 46%
+2026-03-12 09:25:18 - DEBUG - Baixando: 46% - Velocidade: 96966.56 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 46%
+2026-03-12 09:25:18 - DEBUG - Baixando: 46% - Velocidade: 53691.21 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 46%
+2026-03-12 09:25:18 - DEBUG - Baixando: 46% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 46%
+2026-03-12 09:25:18 - DEBUG - Baixando: 46% - Velocidade: 1496.36 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 46%
+2026-03-12 09:25:18 - DEBUG - Baixando: 46% - Velocidade: 1747.94 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 46%
+2026-03-12 09:25:18 - DEBUG - Baixando: 46% - Velocidade: 1874.02 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 46%
+2026-03-12 09:25:18 - DEBUG - Baixando: 46% - Velocidade: 3442.78 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 46%
+2026-03-12 09:25:18 - DEBUG - Baixando: 46% - Velocidade: 6295.80 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 46%
+2026-03-12 09:25:18 - DEBUG - Baixando: 46% - Velocidade: 11499.68 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 46%
+2026-03-12 09:25:18 - DEBUG - Baixando: 46% - Velocidade: 21175.80 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 46%
+2026-03-12 09:25:18 - DEBUG - Baixando: 46% - Velocidade: 39169.02 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 46%
+2026-03-12 09:25:18 - DEBUG - Baixando: 46% - Velocidade: 72844.73 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 46%
+2026-03-12 09:25:18 - DEBUG - Baixando: 46% - Velocidade: 107484.32 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 46%
+2026-03-12 09:25:18 - DEBUG - Baixando: 46% - Velocidade: 109083.76 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:18 - DEBUG - Progresso atualizado: 47%
+2026-03-12 09:25:18 - DEBUG - Baixando: 47% - Velocidade: 106971.30 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 47%
+2026-03-12 09:25:19 - DEBUG - Baixando: 47% - Velocidade: 52511.72 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 47%
+2026-03-12 09:25:19 - DEBUG - Baixando: 47% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 47%
+2026-03-12 09:25:19 - DEBUG - Baixando: 47% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 47%
+2026-03-12 09:25:19 - DEBUG - Baixando: 47% - Velocidade: 2785.06 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 47%
+2026-03-12 09:25:19 - DEBUG - Baixando: 47% - Velocidade: 4262.79 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 47%
+2026-03-12 09:25:19 - DEBUG - Baixando: 47% - Velocidade: 5616.32 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 47%
+2026-03-12 09:25:19 - DEBUG - Baixando: 47% - Velocidade: 9663.23 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 47%
+2026-03-12 09:25:19 - DEBUG - Baixando: 47% - Velocidade: 16889.46 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 47%
+2026-03-12 09:25:19 - DEBUG - Baixando: 47% - Velocidade: 29933.32 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 47%
+2026-03-12 09:25:19 - DEBUG - Baixando: 47% - Velocidade: 48569.83 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 47%
+2026-03-12 09:25:19 - DEBUG - Baixando: 47% - Velocidade: 81704.11 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 48%
+2026-03-12 09:25:19 - DEBUG - Baixando: 48% - Velocidade: 114415.52 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 48%
+2026-03-12 09:25:19 - DEBUG - Baixando: 48% - Velocidade: 112393.01 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 48%
+2026-03-12 09:25:19 - DEBUG - Baixando: 48% - Velocidade: 104385.44 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 49%
+2026-03-12 09:25:19 - DEBUG - Baixando: 49% - Velocidade: 46167.84 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 49%
+2026-03-12 09:25:19 - DEBUG - Baixando: 49% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 49%
+2026-03-12 09:25:19 - DEBUG - Baixando: 49% - Velocidade: 2995.93 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 49%
+2026-03-12 09:25:19 - DEBUG - Baixando: 49% - Velocidade: 3498.59 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 49%
+2026-03-12 09:25:19 - DEBUG - Baixando: 49% - Velocidade: 4994.80 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 49%
+2026-03-12 09:25:19 - DEBUG - Baixando: 49% - Velocidade: 7749.18 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 49%
+2026-03-12 09:25:19 - DEBUG - Baixando: 49% - Velocidade: 11247.65 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 49%
+2026-03-12 09:25:19 - DEBUG - Baixando: 49% - Velocidade: 20709.79 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 49%
+2026-03-12 09:25:19 - DEBUG - Baixando: 49% - Velocidade: 31333.79 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 49%
+2026-03-12 09:25:19 - DEBUG - Baixando: 49% - Velocidade: 55918.22 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 49%
+2026-03-12 09:25:19 - DEBUG - Baixando: 49% - Velocidade: 100921.37 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 49%
+2026-03-12 09:25:19 - DEBUG - Baixando: 49% - Velocidade: 113099.74 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 49%
+2026-03-12 09:25:19 - DEBUG - Baixando: 49% - Velocidade: 113399.23 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 50%
+2026-03-12 09:25:19 - INFO - Baixando: 50% - Velocidade: 99518.11 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 50%
+2026-03-12 09:25:19 - INFO - Baixando: 50% - Velocidade: 95874.62 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 50%
+2026-03-12 09:25:19 - INFO - Baixando: 50% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 50%
+2026-03-12 09:25:19 - INFO - Baixando: 50% - Velocidade: 2989.53 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 50%
+2026-03-12 09:25:19 - INFO - Baixando: 50% - Velocidade: 1748.04 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 50%
+2026-03-12 09:25:19 - INFO - Baixando: 50% - Velocidade: 2498.49 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 50%
+2026-03-12 09:25:19 - INFO - Baixando: 50% - Velocidade: 4426.03 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 50%
+2026-03-12 09:25:19 - INFO - Baixando: 50% - Velocidade: 7869.24 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 50%
+2026-03-12 09:25:19 - INFO - Baixando: 50% - Velocidade: 14103.54 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 50%
+2026-03-12 09:25:19 - INFO - Baixando: 50% - Velocidade: 28318.13 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 50%
+2026-03-12 09:25:19 - INFO - Baixando: 50% - Velocidade: 46290.35 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 50%
+2026-03-12 09:25:19 - INFO - Baixando: 50% - Velocidade: 78437.62 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 50%
+2026-03-12 09:25:19 - INFO - Baixando: 50% - Velocidade: 39954.12 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 50%
+2026-03-12 09:25:19 - INFO - Baixando: 50% - Velocidade: 41283.31 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 51%
+2026-03-12 09:25:19 - DEBUG - Baixando: 51% - Velocidade: 27230.06 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 51%
+2026-03-12 09:25:19 - DEBUG - Baixando: 51% - Velocidade: 31334.44 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 51%
+2026-03-12 09:25:19 - DEBUG - Baixando: 51% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 51%
+2026-03-12 09:25:19 - DEBUG - Baixando: 51% - Velocidade: 2998.79 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 51%
+2026-03-12 09:25:19 - DEBUG - Baixando: 51% - Velocidade: 3497.34 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 51%
+2026-03-12 09:25:19 - DEBUG - Baixando: 51% - Velocidade: 3748.71 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 51%
+2026-03-12 09:25:19 - DEBUG - Baixando: 51% - Velocidade: 7747.33 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 51%
+2026-03-12 09:25:19 - DEBUG - Baixando: 51% - Velocidade: 12598.51 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 51%
+2026-03-12 09:25:19 - DEBUG - Baixando: 51% - Velocidade: 25397.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 51%
+2026-03-12 09:25:19 - DEBUG - Baixando: 51% - Velocidade: 33944.19 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 51%
+2026-03-12 09:25:19 - DEBUG - Baixando: 51% - Velocidade: 2204.10 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 51%
+2026-03-12 09:25:19 - DEBUG - Baixando: 51% - Velocidade: 4319.36 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:19 - DEBUG - Progresso atualizado: 51%
+2026-03-12 09:25:19 - DEBUG - Baixando: 51% - Velocidade: 8325.19 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 52%
+2026-03-12 09:25:20 - DEBUG - Baixando: 52% - Velocidade: 13311.10 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 52%
+2026-03-12 09:25:20 - DEBUG - Baixando: 52% - Velocidade: 20378.19 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 52%
+2026-03-12 09:25:20 - DEBUG - Baixando: 52% - Velocidade: 23477.60 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 52%
+2026-03-12 09:25:20 - DEBUG - Baixando: 52% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 52%
+2026-03-12 09:25:20 - DEBUG - Baixando: 52% - Velocidade: 2994.51 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 52%
+2026-03-12 09:25:20 - DEBUG - Baixando: 52% - Velocidade: 3491.51 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 52%
+2026-03-12 09:25:20 - DEBUG - Baixando: 52% - Velocidade: 4220.47 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 52%
+2026-03-12 09:25:20 - DEBUG - Baixando: 52% - Velocidade: 5577.53 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 52%
+2026-03-12 09:25:20 - DEBUG - Baixando: 52% - Velocidade: 9602.48 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 52%
+2026-03-12 09:25:20 - DEBUG - Baixando: 52% - Velocidade: 16797.32 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 52%
+2026-03-12 09:25:20 - DEBUG - Baixando: 52% - Velocidade: 26461.50 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 52%
+2026-03-12 09:25:20 - DEBUG - Baixando: 52% - Velocidade: 48045.04 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 52%
+2026-03-12 09:25:20 - DEBUG - Baixando: 52% - Velocidade: 87891.46 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 53%
+2026-03-12 09:25:20 - DEBUG - Baixando: 53% - Velocidade: 111414.86 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 53%
+2026-03-12 09:25:20 - DEBUG - Baixando: 53% - Velocidade: 112082.76 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 53%
+2026-03-12 09:25:20 - DEBUG - Baixando: 53% - Velocidade: 105262.08 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 54%
+2026-03-12 09:25:20 - DEBUG - Baixando: 54% - Velocidade: 70998.96 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 54%
+2026-03-12 09:25:20 - DEBUG - Baixando: 54% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 54%
+2026-03-12 09:25:20 - DEBUG - Baixando: 54% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 54%
+2026-03-12 09:25:20 - DEBUG - Baixando: 54% - Velocidade: 2332.39 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 54%
+2026-03-12 09:25:20 - DEBUG - Baixando: 54% - Velocidade: 2999.93 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 54%
+2026-03-12 09:25:20 - DEBUG - Baixando: 54% - Velocidade: 3870.67 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 54%
+2026-03-12 09:25:20 - DEBUG - Baixando: 54% - Velocidade: 6282.18 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 54%
+2026-03-12 09:25:20 - DEBUG - Baixando: 54% - Velocidade: 11519.82 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 54%
+2026-03-12 09:25:20 - DEBUG - Baixando: 54% - Velocidade: 21204.77 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 54%
+2026-03-12 09:25:20 - DEBUG - Baixando: 54% - Velocidade: 39230.67 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 54%
+2026-03-12 09:25:20 - DEBUG - Baixando: 54% - Velocidade: 72927.68 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 54%
+2026-03-12 09:25:20 - DEBUG - Baixando: 54% - Velocidade: 85603.16 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 54%
+2026-03-12 09:25:20 - DEBUG - Baixando: 54% - Velocidade: 36652.86 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 55%
+2026-03-12 09:25:20 - INFO - Baixando: 55% - Velocidade: 55004.87 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 55%
+2026-03-12 09:25:20 - INFO - Baixando: 55% - Velocidade: 60490.78 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 55%
+2026-03-12 09:25:20 - INFO - Baixando: 55% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 55%
+2026-03-12 09:25:20 - INFO - Baixando: 55% - Velocidade: 2998.79 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 55%
+2026-03-12 09:25:20 - INFO - Baixando: 55% - Velocidade: 1721.40 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 55%
+2026-03-12 09:25:20 - INFO - Baixando: 55% - Velocidade: 2470.73 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 55%
+2026-03-12 09:25:20 - INFO - Baixando: 55% - Velocidade: 4384.83 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 55%
+2026-03-12 09:25:20 - INFO - Baixando: 55% - Velocidade: 6945.67 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 55%
+2026-03-12 09:25:20 - INFO - Baixando: 55% - Velocidade: 12612.81 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 55%
+2026-03-12 09:25:20 - INFO - Baixando: 55% - Velocidade: 22034.35 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 55%
+2026-03-12 09:25:20 - INFO - Baixando: 55% - Velocidade: 36283.28 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 55%
+2026-03-12 09:25:20 - INFO - Baixando: 55% - Velocidade: 63588.67 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 55%
+2026-03-12 09:25:20 - INFO - Baixando: 55% - Velocidade: 107245.34 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 55%
+2026-03-12 09:25:20 - INFO - Baixando: 55% - Velocidade: 110340.26 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 56%
+2026-03-12 09:25:20 - DEBUG - Baixando: 56% - Velocidade: 81253.16 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 56%
+2026-03-12 09:25:20 - DEBUG - Baixando: 56% - Velocidade: 72585.09 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 56%
+2026-03-12 09:25:20 - DEBUG - Baixando: 56% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 56%
+2026-03-12 09:25:20 - DEBUG - Baixando: 56% - Velocidade: 2999.50 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 56%
+2026-03-12 09:25:20 - DEBUG - Baixando: 56% - Velocidade: 2330.35 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 56%
+2026-03-12 09:25:20 - DEBUG - Baixando: 56% - Velocidade: 2136.83 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 56%
+2026-03-12 09:25:20 - DEBUG - Baixando: 56% - Velocidade: 4416.11 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 56%
+2026-03-12 09:25:20 - DEBUG - Baixando: 56% - Velocidade: 7851.70 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 56%
+2026-03-12 09:25:20 - DEBUG - Baixando: 56% - Velocidade: 14071.13 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 56%
+2026-03-12 09:25:20 - DEBUG - Baixando: 56% - Velocidade: 23132.35 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 56%
+2026-03-12 09:25:20 - DEBUG - Baixando: 56% - Velocidade: 39227.08 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 56%
+2026-03-12 09:25:20 - DEBUG - Baixando: 56% - Velocidade: 70392.47 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 56%
+2026-03-12 09:25:20 - DEBUG - Baixando: 56% - Velocidade: 107485.67 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 57%
+2026-03-12 09:25:20 - DEBUG - Baixando: 57% - Velocidade: 111963.67 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 57%
+2026-03-12 09:25:20 - DEBUG - Baixando: 57% - Velocidade: 69980.25 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:20 - DEBUG - Progresso atualizado: 57%
+2026-03-12 09:25:20 - DEBUG - Baixando: 57% - Velocidade: 68397.47 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 57%
+2026-03-12 09:25:21 - DEBUG - Baixando: 57% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 57%
+2026-03-12 09:25:21 - DEBUG - Baixando: 57% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 57%
+2026-03-12 09:25:21 - DEBUG - Baixando: 57% - Velocidade: 3501.51 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 57%
+2026-03-12 09:25:21 - DEBUG - Baixando: 57% - Velocidade: 4819.19 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 57%
+2026-03-12 09:25:21 - DEBUG - Baixando: 57% - Velocidade: 7527.99 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 58%
+2026-03-12 09:25:21 - DEBUG - Baixando: 58% - Velocidade: 12296.58 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 58%
+2026-03-12 09:25:21 - DEBUG - Baixando: 58% - Velocidade: 20742.86 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 58%
+2026-03-12 09:25:21 - DEBUG - Baixando: 58% - Velocidade: 35785.18 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 58%
+2026-03-12 09:25:21 - DEBUG - Baixando: 58% - Velocidade: 62904.71 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 58%
+2026-03-12 09:25:21 - DEBUG - Baixando: 58% - Velocidade: 101064.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 58%
+2026-03-12 09:25:21 - DEBUG - Baixando: 58% - Velocidade: 118710.55 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 58%
+2026-03-12 09:25:21 - DEBUG - Baixando: 58% - Velocidade: 37109.88 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 59%
+2026-03-12 09:25:21 - DEBUG - Baixando: 59% - Velocidade: 37503.72 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 59%
+2026-03-12 09:25:21 - DEBUG - Baixando: 59% - Velocidade: 38981.38 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 59%
+2026-03-12 09:25:21 - DEBUG - Baixando: 59% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 59%
+2026-03-12 09:25:21 - DEBUG - Baixando: 59% - Velocidade: 1499.22 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 59%
+2026-03-12 09:25:21 - DEBUG - Baixando: 59% - Velocidade: 1747.63 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 59%
+2026-03-12 09:25:21 - DEBUG - Baixando: 59% - Velocidade: 2956.51 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 59%
+2026-03-12 09:25:21 - DEBUG - Baixando: 59% - Velocidade: 5103.76 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 59%
+2026-03-12 09:25:21 - DEBUG - Baixando: 59% - Velocidade: 8907.21 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 59%
+2026-03-12 09:25:21 - DEBUG - Baixando: 59% - Velocidade: 17955.79 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 59%
+2026-03-12 09:25:21 - DEBUG - Baixando: 59% - Velocidade: 31582.68 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 59%
+2026-03-12 09:25:21 - DEBUG - Baixando: 59% - Velocidade: 56316.39 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 59%
+2026-03-12 09:25:21 - DEBUG - Baixando: 59% - Velocidade: 27755.29 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 59%
+2026-03-12 09:25:21 - DEBUG - Baixando: 59% - Velocidade: 46138.07 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 59%
+2026-03-12 09:25:21 - DEBUG - Baixando: 59% - Velocidade: 36814.85 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 60%
+2026-03-12 09:25:21 - INFO - Baixando: 60% - Velocidade: 31931.88 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 60%
+2026-03-12 09:25:21 - INFO - Baixando: 60% - Velocidade: 25873.24 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 60%
+2026-03-12 09:25:21 - INFO - Baixando: 60% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 60%
+2026-03-12 09:25:21 - INFO - Baixando: 60% - Velocidade: 2805.55 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 60%
+2026-03-12 09:25:21 - INFO - Baixando: 60% - Velocidade: 3380.56 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 60%
+2026-03-12 09:25:21 - INFO - Baixando: 60% - Velocidade: 3688.71 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 60%
+2026-03-12 09:25:21 - INFO - Baixando: 60% - Velocidade: 6116.73 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 60%
+2026-03-12 09:25:21 - INFO - Baixando: 60% - Velocidade: 10382.76 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 60%
+2026-03-12 09:25:21 - INFO - Baixando: 60% - Velocidade: 17971.55 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 60%
+2026-03-12 09:25:21 - INFO - Baixando: 60% - Velocidade: 29747.66 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 60%
+2026-03-12 09:25:21 - INFO - Baixando: 60% - Velocidade: 53366.10 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 60%
+2026-03-12 09:25:21 - INFO - Baixando: 60% - Velocidade: 21575.88 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 60%
+2026-03-12 09:25:21 - INFO - Baixando: 60% - Velocidade: 35959.86 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 61%
+2026-03-12 09:25:21 - DEBUG - Baixando: 61% - Velocidade: 53872.98 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 61%
+2026-03-12 09:25:21 - DEBUG - Baixando: 61% - Velocidade: 64087.32 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 61%
+2026-03-12 09:25:21 - DEBUG - Baixando: 61% - Velocidade: 63001.56 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 61%
+2026-03-12 09:25:21 - DEBUG - Baixando: 61% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 61%
+2026-03-12 09:25:21 - DEBUG - Baixando: 61% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 61%
+2026-03-12 09:25:21 - DEBUG - Baixando: 61% - Velocidade: 3313.78 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 61%
+2026-03-12 09:25:21 - DEBUG - Baixando: 61% - Velocidade: 4811.45 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 61%
+2026-03-12 09:25:21 - DEBUG - Baixando: 61% - Velocidade: 6708.46 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 61%
+2026-03-12 09:25:21 - DEBUG - Baixando: 61% - Velocidade: 11198.08 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 61%
+2026-03-12 09:25:21 - DEBUG - Baixando: 61% - Velocidade: 19148.63 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 61%
+2026-03-12 09:25:21 - DEBUG - Baixando: 61% - Velocidade: 33416.05 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 61%
+2026-03-12 09:25:21 - DEBUG - Baixando: 61% - Velocidade: 59201.98 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 61%
+2026-03-12 09:25:21 - DEBUG - Baixando: 61% - Velocidade: 96207.83 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 62%
+2026-03-12 09:25:21 - DEBUG - Baixando: 62% - Velocidade: 116015.68 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 62%
+2026-03-12 09:25:21 - DEBUG - Baixando: 62% - Velocidade: 111669.58 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:21 - DEBUG - Progresso atualizado: 62%
+2026-03-12 09:25:21 - DEBUG - Baixando: 62% - Velocidade: 105918.60 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 63%
+2026-03-12 09:25:22 - DEBUG - Baixando: 63% - Velocidade: 49598.84 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 63%
+2026-03-12 09:25:22 - DEBUG - Baixando: 63% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 63%
+2026-03-12 09:25:22 - DEBUG - Baixando: 63% - Velocidade: 1995.39 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 63%
+2026-03-12 09:25:22 - DEBUG - Baixando: 63% - Velocidade: 1992.27 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 63%
+2026-03-12 09:25:22 - DEBUG - Baixando: 63% - Velocidade: 2718.98 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 63%
+2026-03-12 09:25:22 - DEBUG - Baixando: 63% - Velocidade: 5619.23 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 63%
+2026-03-12 09:25:22 - DEBUG - Baixando: 63% - Velocidade: 9662.17 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 63%
+2026-03-12 09:25:22 - DEBUG - Baixando: 63% - Velocidade: 16895.89 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 63%
+2026-03-12 09:25:22 - DEBUG - Baixando: 63% - Velocidade: 29939.19 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 63%
+2026-03-12 09:25:22 - DEBUG - Baixando: 63% - Velocidade: 53688.27 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 63%
+2026-03-12 09:25:22 - DEBUG - Baixando: 63% - Velocidade: 97265.56 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 63%
+2026-03-12 09:25:22 - DEBUG - Baixando: 63% - Velocidade: 39942.78 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 63%
+2026-03-12 09:25:22 - DEBUG - Baixando: 63% - Velocidade: 45127.06 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 64%
+2026-03-12 09:25:22 - DEBUG - Baixando: 64% - Velocidade: 41913.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 64%
+2026-03-12 09:25:22 - DEBUG - Baixando: 64% - Velocidade: 46425.14 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 64%
+2026-03-12 09:25:22 - DEBUG - Baixando: 64% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 64%
+2026-03-12 09:25:22 - DEBUG - Baixando: 64% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 64%
+2026-03-12 09:25:22 - DEBUG - Baixando: 64% - Velocidade: 2334.24 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 64%
+2026-03-12 09:25:22 - DEBUG - Baixando: 64% - Velocidade: 3752.06 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 64%
+2026-03-12 09:25:22 - DEBUG - Baixando: 64% - Velocidade: 5168.89 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 64%
+2026-03-12 09:25:22 - DEBUG - Baixando: 64% - Velocidade: 10504.52 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 64%
+2026-03-12 09:25:22 - DEBUG - Baixando: 64% - Velocidade: 16928.64 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 64%
+2026-03-12 09:25:22 - DEBUG - Baixando: 64% - Velocidade: 28309.89 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 64%
+2026-03-12 09:25:22 - DEBUG - Baixando: 64% - Velocidade: 51036.77 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 64%
+2026-03-12 09:25:22 - DEBUG - Baixando: 64% - Velocidade: 92893.98 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 64%
+2026-03-12 09:25:22 - DEBUG - Baixando: 64% - Velocidade: 48678.07 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 65%
+2026-03-12 09:25:22 - INFO - Baixando: 65% - Velocidade: 41013.89 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 65%
+2026-03-12 09:25:22 - INFO - Baixando: 65% - Velocidade: 42731.52 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 65%
+2026-03-12 09:25:22 - INFO - Baixando: 65% - Velocidade: 46422.95 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 65%
+2026-03-12 09:25:22 - INFO - Baixando: 65% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 65%
+2026-03-12 09:25:22 - INFO - Baixando: 65% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 65%
+2026-03-12 09:25:22 - INFO - Baixando: 65% - Velocidade: 1995.52 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 65%
+2026-03-12 09:25:22 - INFO - Baixando: 65% - Velocidade: 4276.12 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 65%
+2026-03-12 09:25:22 - INFO - Baixando: 65% - Velocidade: 4762.59 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 65%
+2026-03-12 09:25:22 - INFO - Baixando: 65% - Velocidade: 8390.47 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 65%
+2026-03-12 09:25:22 - INFO - Baixando: 65% - Velocidade: 14925.09 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 65%
+2026-03-12 09:25:22 - INFO - Baixando: 65% - Velocidade: 26816.46 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 65%
+2026-03-12 09:25:22 - INFO - Baixando: 65% - Velocidade: 46395.56 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 65%
+2026-03-12 09:25:22 - INFO - Baixando: 65% - Velocidade: 81166.26 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 66%
+2026-03-12 09:25:22 - DEBUG - Baixando: 66% - Velocidade: 43040.61 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 66%
+2026-03-12 09:25:22 - DEBUG - Baixando: 66% - Velocidade: 61936.06 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 66%
+2026-03-12 09:25:22 - DEBUG - Baixando: 66% - Velocidade: 79572.22 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 67%
+2026-03-12 09:25:22 - DEBUG - Baixando: 67% - Velocidade: 84507.09 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 67%
+2026-03-12 09:25:22 - DEBUG - Baixando: 67% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 67%
+2026-03-12 09:25:22 - DEBUG - Baixando: 67% - Velocidade: 2990.24 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 67%
+2026-03-12 09:25:22 - DEBUG - Baixando: 67% - Velocidade: 2323.71 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 67%
+2026-03-12 09:25:22 - DEBUG - Baixando: 67% - Velocidade: 3734.47 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 67%
+2026-03-12 09:25:22 - DEBUG - Baixando: 67% - Velocidade: 6184.82 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 67%
+2026-03-12 09:25:22 - DEBUG - Baixando: 67% - Velocidade: 10477.03 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 67%
+2026-03-12 09:25:22 - DEBUG - Baixando: 67% - Velocidade: 15849.70 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 67%
+2026-03-12 09:25:22 - DEBUG - Baixando: 67% - Velocidade: 24240.14 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 67%
+2026-03-12 09:25:22 - DEBUG - Baixando: 67% - Velocidade: 46278.35 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 67%
+2026-03-12 09:25:22 - DEBUG - Baixando: 67% - Velocidade: 84908.64 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 67%
+2026-03-12 09:25:22 - DEBUG - Baixando: 67% - Velocidade: 102116.37 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 67%
+2026-03-12 09:25:22 - DEBUG - Baixando: 67% - Velocidade: 111194.61 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 68%
+2026-03-12 09:25:22 - DEBUG - Baixando: 68% - Velocidade: 110294.57 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 68%
+2026-03-12 09:25:22 - DEBUG - Baixando: 68% - Velocidade: 80586.72 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 68%
+2026-03-12 09:25:22 - DEBUG - Baixando: 68% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:22 - DEBUG - Progresso atualizado: 68%
+2026-03-12 09:25:22 - DEBUG - Baixando: 68% - Velocidade: 2988.11 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 68%
+2026-03-12 09:25:23 - DEBUG - Baixando: 68% - Velocidade: 2330.35 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 68%
+2026-03-12 09:25:23 - DEBUG - Baixando: 68% - Velocidade: 2997.50 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 68%
+2026-03-12 09:25:23 - DEBUG - Baixando: 68% - Velocidade: 5162.94 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 68%
+2026-03-12 09:25:23 - DEBUG - Baixando: 68% - Velocidade: 8993.30 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 68%
+2026-03-12 09:25:23 - DEBUG - Baixando: 68% - Velocidade: 15765.26 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 68%
+2026-03-12 09:25:23 - DEBUG - Baixando: 68% - Velocidade: 28157.84 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 68%
+2026-03-12 09:25:23 - DEBUG - Baixando: 68% - Velocidade: 46226.45 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 68%
+2026-03-12 09:25:23 - DEBUG - Baixando: 68% - Velocidade: 84863.29 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 68%
+2026-03-12 09:25:23 - DEBUG - Baixando: 68% - Velocidade: 113239.96 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 68%
+2026-03-12 09:25:23 - DEBUG - Baixando: 68% - Velocidade: 39702.17 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 69%
+2026-03-12 09:25:23 - DEBUG - Baixando: 69% - Velocidade: 48912.91 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 69%
+2026-03-12 09:25:23 - DEBUG - Baixando: 69% - Velocidade: 54851.56 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 69%
+2026-03-12 09:25:23 - DEBUG - Baixando: 69% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 69%
+2026-03-12 09:25:23 - DEBUG - Baixando: 69% - Velocidade: 2976.09 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 69%
+2026-03-12 09:25:23 - DEBUG - Baixando: 69% - Velocidade: 2328.88 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 69%
+2026-03-12 09:25:23 - DEBUG - Baixando: 69% - Velocidade: 2997.50 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 69%
+2026-03-12 09:25:23 - DEBUG - Baixando: 69% - Velocidade: 4423.47 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 69%
+2026-03-12 09:25:23 - DEBUG - Baixando: 69% - Velocidade: 7870.64 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 69%
+2026-03-12 09:25:23 - DEBUG - Baixando: 69% - Velocidade: 14104.66 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 69%
+2026-03-12 09:25:23 - DEBUG - Baixando: 69% - Velocidade: 25489.69 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 69%
+2026-03-12 09:25:23 - DEBUG - Baixando: 69% - Velocidade: 46055.60 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 69%
+2026-03-12 09:25:23 - DEBUG - Baixando: 69% - Velocidade: 84563.91 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 69%
+2026-03-12 09:25:23 - DEBUG - Baixando: 69% - Velocidade: 113090.80 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 70%
+2026-03-12 09:25:23 - INFO - Baixando: 70% - Velocidade: 59133.69 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 70%
+2026-03-12 09:25:23 - INFO - Baixando: 70% - Velocidade: 49348.08 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 70%
+2026-03-12 09:25:23 - INFO - Baixando: 70% - Velocidade: 55127.36 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 70%
+2026-03-12 09:25:23 - INFO - Baixando: 70% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 70%
+2026-03-12 09:25:23 - INFO - Baixando: 70% - Velocidade: 854.47 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 70%
+2026-03-12 09:25:23 - INFO - Baixando: 70% - Velocidade: 1270.40 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 70%
+2026-03-12 09:25:23 - INFO - Baixando: 70% - Velocidade: 1762.31 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 70%
+2026-03-12 09:25:23 - INFO - Baixando: 70% - Velocidade: 3259.63 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 70%
+2026-03-12 09:25:23 - INFO - Baixando: 70% - Velocidade: 5993.90 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 70%
+2026-03-12 09:25:23 - INFO - Baixando: 70% - Velocidade: 10151.83 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 70%
+2026-03-12 09:25:23 - INFO - Baixando: 70% - Velocidade: 18431.58 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 70%
+2026-03-12 09:25:23 - INFO - Baixando: 70% - Velocidade: 32269.71 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 71%
+2026-03-12 09:25:23 - DEBUG - Baixando: 71% - Velocidade: 54313.58 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 71%
+2026-03-12 09:25:23 - DEBUG - Baixando: 71% - Velocidade: 87669.53 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 71%
+2026-03-12 09:25:23 - DEBUG - Baixando: 71% - Velocidade: 102724.10 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 71%
+2026-03-12 09:25:23 - DEBUG - Baixando: 71% - Velocidade: 26829.54 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 72%
+2026-03-12 09:25:23 - DEBUG - Baixando: 72% - Velocidade: 29058.39 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 72%
+2026-03-12 09:25:23 - DEBUG - Baixando: 72% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 72%
+2026-03-12 09:25:23 - DEBUG - Baixando: 72% - Velocidade: 1499.57 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 72%
+2026-03-12 09:25:23 - DEBUG - Baixando: 72% - Velocidade: 1749.92 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 72%
+2026-03-12 09:25:23 - DEBUG - Baixando: 72% - Velocidade: 3000.07 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 72%
+2026-03-12 09:25:23 - DEBUG - Baixando: 72% - Velocidade: 3870.90 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 72%
+2026-03-12 09:25:23 - DEBUG - Baixando: 72% - Velocidade: 6990.51 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 72%
+2026-03-12 09:25:23 - DEBUG - Baixando: 72% - Velocidade: 12680.36 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 72%
+2026-03-12 09:25:23 - DEBUG - Baixando: 72% - Velocidade: 25460.57 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 72%
+2026-03-12 09:25:23 - DEBUG - Baixando: 72% - Velocidade: 42526.43 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 72%
+2026-03-12 09:25:23 - DEBUG - Baixando: 72% - Velocidade: 72977.29 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 72%
+2026-03-12 09:25:23 - DEBUG - Baixando: 72% - Velocidade: 102167.41 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 72%
+2026-03-12 09:25:23 - DEBUG - Baixando: 72% - Velocidade: 108739.15 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 73%
+2026-03-12 09:25:23 - DEBUG - Baixando: 73% - Velocidade: 111202.06 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 73%
+2026-03-12 09:25:23 - DEBUG - Baixando: 73% - Velocidade: 65515.90 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 73%
+2026-03-12 09:25:23 - DEBUG - Baixando: 73% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 73%
+2026-03-12 09:25:23 - DEBUG - Baixando: 73% - Velocidade: 1194.28 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 73%
+2026-03-12 09:25:23 - DEBUG - Baixando: 73% - Velocidade: 1993.49 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 73%
+2026-03-12 09:25:23 - DEBUG - Baixando: 73% - Velocidade: 2721.22 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:23 - DEBUG - Progresso atualizado: 73%
+2026-03-12 09:25:23 - DEBUG - Baixando: 73% - Velocidade: 4760.67 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 73%
+2026-03-12 09:25:24 - DEBUG - Baixando: 73% - Velocidade: 9674.91 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 73%
+2026-03-12 09:25:24 - DEBUG - Baixando: 73% - Velocidade: 12677.95 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 73%
+2026-03-12 09:25:24 - DEBUG - Baixando: 73% - Velocidade: 20351.40 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 73%
+2026-03-12 09:25:24 - DEBUG - Baixando: 73% - Velocidade: 37773.87 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 73%
+2026-03-12 09:25:24 - DEBUG - Baixando: 73% - Velocidade: 65879.12 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 73%
+2026-03-12 09:25:24 - DEBUG - Baixando: 73% - Velocidade: 102189.30 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 74%
+2026-03-12 09:25:24 - DEBUG - Baixando: 74% - Velocidade: 105884.77 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 74%
+2026-03-12 09:25:24 - DEBUG - Baixando: 74% - Velocidade: 47825.97 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 74%
+2026-03-12 09:25:24 - DEBUG - Baixando: 74% - Velocidade: 53551.12 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 74%
+2026-03-12 09:25:24 - DEBUG - Baixando: 74% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 74%
+2026-03-12 09:25:24 - DEBUG - Baixando: 74% - Velocidade: 1499.93 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 74%
+2026-03-12 09:25:24 - DEBUG - Baixando: 74% - Velocidade: 1749.29 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 74%
+2026-03-12 09:25:24 - DEBUG - Baixando: 74% - Velocidade: 2998.79 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 74%
+2026-03-12 09:25:24 - DEBUG - Baixando: 74% - Velocidade: 5167.04 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 74%
+2026-03-12 09:25:24 - DEBUG - Baixando: 74% - Velocidade: 8744.21 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 74%
+2026-03-12 09:25:24 - DEBUG - Baixando: 74% - Velocidade: 13797.77 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 74%
+2026-03-12 09:25:24 - DEBUG - Baixando: 74% - Velocidade: 24984.76 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 74%
+2026-03-12 09:25:24 - DEBUG - Baixando: 74% - Velocidade: 41866.84 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 74%
+2026-03-12 09:25:24 - DEBUG - Baixando: 74% - Velocidade: 77467.56 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 75%
+2026-03-12 09:25:24 - INFO - Baixando: 75% - Velocidade: 87751.97 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 75%
+2026-03-12 09:25:24 - INFO - Baixando: 75% - Velocidade: 42634.25 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 75%
+2026-03-12 09:25:24 - INFO - Baixando: 75% - Velocidade: 61473.01 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 76%
+2026-03-12 09:25:24 - DEBUG - Baixando: 76% - Velocidade: 67818.14 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 76%
+2026-03-12 09:25:24 - DEBUG - Baixando: 76% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 76%
+2026-03-12 09:25:24 - DEBUG - Baixando: 76% - Velocidade: 1499.93 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 76%
+2026-03-12 09:25:24 - DEBUG - Baixando: 76% - Velocidade: 1399.83 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 76%
+2026-03-12 09:25:24 - DEBUG - Baixando: 76% - Velocidade: 1998.37 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 76%
+2026-03-12 09:25:24 - DEBUG - Baixando: 76% - Velocidade: 3641.70 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 76%
+2026-03-12 09:25:24 - DEBUG - Baixando: 76% - Velocidade: 6618.27 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 76%
+2026-03-12 09:25:24 - DEBUG - Baixando: 76% - Velocidade: 12074.73 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 76%
+2026-03-12 09:25:24 - DEBUG - Baixando: 76% - Velocidade: 22138.34 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 76%
+2026-03-12 09:25:24 - DEBUG - Baixando: 76% - Velocidade: 40812.90 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 76%
+2026-03-12 09:25:24 - DEBUG - Baixando: 76% - Velocidade: 75663.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 76%
+2026-03-12 09:25:24 - DEBUG - Baixando: 76% - Velocidade: 107600.17 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 76%
+2026-03-12 09:25:24 - DEBUG - Baixando: 76% - Velocidade: 46071.97 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 77%
+2026-03-12 09:25:24 - DEBUG - Baixando: 77% - Velocidade: 38366.49 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 77%
+2026-03-12 09:25:24 - DEBUG - Baixando: 77% - Velocidade: 43486.38 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 77%
+2026-03-12 09:25:24 - DEBUG - Baixando: 77% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 77%
+2026-03-12 09:25:24 - DEBUG - Baixando: 77% - Velocidade: 731.61 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 77%
+2026-03-12 09:25:24 - DEBUG - Baixando: 77% - Velocidade: 1059.93 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 77%
+2026-03-12 09:25:24 - DEBUG - Baixando: 77% - Velocidade: 1971.56 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 77%
+2026-03-12 09:25:24 - DEBUG - Baixando: 77% - Velocidade: 3224.87 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 77%
+2026-03-12 09:25:24 - DEBUG - Baixando: 77% - Velocidade: 5935.20 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 77%
+2026-03-12 09:25:24 - DEBUG - Baixando: 77% - Velocidade: 11964.61 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 77%
+2026-03-12 09:25:24 - DEBUG - Baixando: 77% - Velocidade: 21957.45 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 77%
+2026-03-12 09:25:24 - DEBUG - Baixando: 77% - Velocidade: 40515.87 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 77%
+2026-03-12 09:25:24 - DEBUG - Baixando: 77% - Velocidade: 69992.87 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 77%
+2026-03-12 09:25:24 - DEBUG - Baixando: 77% - Velocidade: 94116.09 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 77%
+2026-03-12 09:25:24 - DEBUG - Baixando: 77% - Velocidade: 102072.72 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 78%
+2026-03-12 09:25:24 - DEBUG - Baixando: 78% - Velocidade: 62644.59 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 78%
+2026-03-12 09:25:24 - DEBUG - Baixando: 78% - Velocidade: 54196.35 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 78%
+2026-03-12 09:25:24 - DEBUG - Baixando: 78% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 78%
+2026-03-12 09:25:24 - DEBUG - Baixando: 78% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 78%
+2026-03-12 09:25:24 - DEBUG - Baixando: 78% - Velocidade: 1270.12 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 78%
+2026-03-12 09:25:24 - DEBUG - Baixando: 78% - Velocidade: 1871.62 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 78%
+2026-03-12 09:25:24 - DEBUG - Baixando: 78% - Velocidade: 3093.95 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 78%
+2026-03-12 09:25:24 - DEBUG - Baixando: 78% - Velocidade: 5717.28 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 78%
+2026-03-12 09:25:24 - DEBUG - Baixando: 78% - Velocidade: 11525.31 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 78%
+2026-03-12 09:25:24 - DEBUG - Baixando: 78% - Velocidade: 21215.71 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 78%
+2026-03-12 09:25:24 - DEBUG - Baixando: 78% - Velocidade: 36450.50 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 78%
+2026-03-12 09:25:24 - DEBUG - Baixando: 78% - Velocidade: 68112.91 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 78%
+2026-03-12 09:25:24 - DEBUG - Baixando: 78% - Velocidade: 102200.24 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 79%
+2026-03-12 09:25:24 - DEBUG - Baixando: 79% - Velocidade: 107605.55 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 79%
+2026-03-12 09:25:24 - DEBUG - Baixando: 79% - Velocidade: 105522.35 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:24 - DEBUG - Progresso atualizado: 80%
+2026-03-12 09:25:24 - INFO - Baixando: 80% - Velocidade: 66901.73 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 80%
+2026-03-12 09:25:25 - INFO - Baixando: 80% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 80%
+2026-03-12 09:25:25 - INFO - Baixando: 80% - Velocidade: 2983.85 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 80%
+2026-03-12 09:25:25 - INFO - Baixando: 80% - Velocidade: 2331.65 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 80%
+2026-03-12 09:25:25 - INFO - Baixando: 80% - Velocidade: 3748.04 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 80%
+2026-03-12 09:25:25 - INFO - Baixando: 80% - Velocidade: 5627.50 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 80%
+2026-03-12 09:25:25 - INFO - Baixando: 80% - Velocidade: 9671.02 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 80%
+2026-03-12 09:25:25 - INFO - Baixando: 80% - Velocidade: 14903.38 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 80%
+2026-03-12 09:25:25 - INFO - Baixando: 80% - Velocidade: 26780.20 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 80%
+2026-03-12 09:25:25 - INFO - Baixando: 80% - Velocidade: 48568.73 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 80%
+2026-03-12 09:25:25 - INFO - Baixando: 80% - Velocidade: 81135.56 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 80%
+2026-03-12 09:25:25 - INFO - Baixando: 80% - Velocidade: 112953.92 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 80%
+2026-03-12 09:25:25 - INFO - Baixando: 80% - Velocidade: 90058.91 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 81%
+2026-03-12 09:25:25 - DEBUG - Baixando: 81% - Velocidade: 73461.24 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 81%
+2026-03-12 09:25:25 - DEBUG - Baixando: 81% - Velocidade: 78157.39 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 81%
+2026-03-12 09:25:25 - DEBUG - Baixando: 81% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 81%
+2026-03-12 09:25:25 - DEBUG - Baixando: 81% - Velocidade: 2995.93 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 81%
+2026-03-12 09:25:25 - DEBUG - Baixando: 81% - Velocidade: 2787.18 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 81%
+2026-03-12 09:25:25 - DEBUG - Baixando: 81% - Velocidade: 3322.31 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 81%
+2026-03-12 09:25:25 - DEBUG - Baixando: 81% - Velocidade: 6866.10 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 81%
+2026-03-12 09:25:25 - DEBUG - Baixando: 81% - Velocidade: 9666.77 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 81%
+2026-03-12 09:25:25 - DEBUG - Baixando: 81% - Velocidade: 16892.67 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 81%
+2026-03-12 09:25:25 - DEBUG - Baixando: 81% - Velocidade: 29950.09 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 81%
+2026-03-12 09:25:25 - DEBUG - Baixando: 81% - Velocidade: 46349.41 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 81%
+2026-03-12 09:25:25 - DEBUG - Baixando: 81% - Velocidade: 85043.27 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 81%
+2026-03-12 09:25:25 - DEBUG - Baixando: 81% - Velocidade: 113531.95 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 81%
+2026-03-12 09:25:25 - DEBUG - Baixando: 81% - Velocidade: 52583.37 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 82%
+2026-03-12 09:25:25 - DEBUG - Baixando: 82% - Velocidade: 46790.87 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 82%
+2026-03-12 09:25:25 - DEBUG - Baixando: 82% - Velocidade: 41217.61 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 82%
+2026-03-12 09:25:25 - DEBUG - Baixando: 82% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 82%
+2026-03-12 09:25:25 - DEBUG - Baixando: 82% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 82%
+2026-03-12 09:25:25 - DEBUG - Baixando: 82% - Velocidade: 2798.60 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 82%
+2026-03-12 09:25:25 - DEBUG - Baixando: 82% - Velocidade: 2995.36 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 82%
+2026-03-12 09:25:25 - DEBUG - Baixando: 82% - Velocidade: 3871.13 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 82%
+2026-03-12 09:25:25 - DEBUG - Baixando: 82% - Velocidade: 7867.13 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 82%
+2026-03-12 09:25:25 - DEBUG - Baixando: 82% - Velocidade: 14099.06 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 82%
+2026-03-12 09:25:25 - DEBUG - Baixando: 82% - Velocidade: 25481.19 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 82%
+2026-03-12 09:25:25 - DEBUG - Baixando: 82% - Velocidade: 42555.13 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 82%
+2026-03-12 09:25:25 - DEBUG - Baixando: 82% - Velocidade: 78075.09 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 82%
+2026-03-12 09:25:25 - DEBUG - Baixando: 82% - Velocidade: 43106.95 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 83%
+2026-03-12 09:25:25 - DEBUG - Baixando: 83% - Velocidade: 53396.49 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 83%
+2026-03-12 09:25:25 - DEBUG - Baixando: 83% - Velocidade: 64518.79 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 83%
+2026-03-12 09:25:25 - DEBUG - Baixando: 83% - Velocidade: 58523.58 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 83%
+2026-03-12 09:25:25 - DEBUG - Baixando: 83% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 83%
+2026-03-12 09:25:25 - DEBUG - Baixando: 83% - Velocidade: 2961.38 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 83%
+2026-03-12 09:25:25 - DEBUG - Baixando: 83% - Velocidade: 3476.63 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 83%
+2026-03-12 09:25:25 - DEBUG - Baixando: 83% - Velocidade: 4975.84 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 83%
+2026-03-12 09:25:25 - DEBUG - Baixando: 83% - Velocidade: 7726.15 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 83%
+2026-03-12 09:25:25 - DEBUG - Baixando: 83% - Velocidade: 12565.56 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 83%
+2026-03-12 09:25:25 - DEBUG - Baixando: 83% - Velocidade: 21117.01 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 83%
+2026-03-12 09:25:25 - DEBUG - Baixando: 83% - Velocidade: 36359.38 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 84%
+2026-03-12 09:25:25 - DEBUG - Baixando: 84% - Velocidade: 32106.32 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 84%
+2026-03-12 09:25:25 - DEBUG - Baixando: 84% - Velocidade: 30529.53 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 84%
+2026-03-12 09:25:25 - DEBUG - Baixando: 84% - Velocidade: 29690.26 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 84%
+2026-03-12 09:25:25 - DEBUG - Baixando: 84% - Velocidade: 31216.58 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 85%
+2026-03-12 09:25:25 - INFO - Baixando: 85% - Velocidade: 48621.68 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 85%
+2026-03-12 09:25:25 - INFO - Baixando: 85% - Velocidade: 54008.65 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 85%
+2026-03-12 09:25:25 - INFO - Baixando: 85% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 85%
+2026-03-12 09:25:25 - INFO - Baixando: 85% - Velocidade: 2997.36 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 85%
+2026-03-12 09:25:25 - INFO - Baixando: 85% - Velocidade: 2333.13 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 85%
+2026-03-12 09:25:25 - INFO - Baixando: 85% - Velocidade: 3748.93 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 85%
+2026-03-12 09:25:25 - INFO - Baixando: 85% - Velocidade: 7747.79 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 85%
+2026-03-12 09:25:25 - INFO - Baixando: 85% - Velocidade: 11441.49 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 85%
+2026-03-12 09:25:25 - INFO - Baixando: 85% - Velocidade: 19506.25 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 85%
+2026-03-12 09:25:25 - INFO - Baixando: 85% - Velocidade: 29947.57 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 85%
+2026-03-12 09:25:25 - INFO - Baixando: 85% - Velocidade: 48600.67 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 85%
+2026-03-12 09:25:25 - INFO - Baixando: 85% - Velocidade: 81741.47 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 85%
+2026-03-12 09:25:25 - INFO - Baixando: 85% - Velocidade: 104705.43 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:25 - DEBUG - Progresso atualizado: 85%
+2026-03-12 09:25:25 - INFO - Baixando: 85% - Velocidade: 36264.14 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 86%
+2026-03-12 09:25:26 - DEBUG - Baixando: 86% - Velocidade: 47573.12 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 86%
+2026-03-12 09:25:26 - DEBUG - Baixando: 86% - Velocidade: 53008.50 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 86%
+2026-03-12 09:25:26 - DEBUG - Baixando: 86% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 86%
+2026-03-12 09:25:26 - DEBUG - Baixando: 86% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 86%
+2026-03-12 09:25:26 - DEBUG - Baixando: 86% - Velocidade: 3453.32 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 86%
+2026-03-12 09:25:26 - DEBUG - Baixando: 86% - Velocidade: 4943.39 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 86%
+2026-03-12 09:25:26 - DEBUG - Baixando: 86% - Velocidade: 7684.60 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 86%
+2026-03-12 09:25:26 - DEBUG - Baixando: 86% - Velocidade: 12513.79 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 86%
+2026-03-12 09:25:26 - DEBUG - Baixando: 86% - Velocidade: 25226.21 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 86%
+2026-03-12 09:25:26 - DEBUG - Baixando: 86% - Velocidade: 36252.16 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 86%
+2026-03-12 09:25:26 - DEBUG - Baixando: 86% - Velocidade: 63602.86 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 86%
+2026-03-12 09:25:26 - DEBUG - Baixando: 86% - Velocidade: 113242.89 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 86%
+2026-03-12 09:25:26 - DEBUG - Baixando: 86% - Velocidade: 113013.39 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 87%
+2026-03-12 09:25:26 - DEBUG - Baixando: 87% - Velocidade: 113281.81 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 87%
+2026-03-12 09:25:26 - DEBUG - Baixando: 87% - Velocidade: 60374.89 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 87%
+2026-03-12 09:25:26 - DEBUG - Baixando: 87% - Velocidade: 50837.16 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 87%
+2026-03-12 09:25:26 - DEBUG - Baixando: 87% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 87%
+2026-03-12 09:25:26 - DEBUG - Baixando: 87% - Velocidade: 2986.69 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 87%
+2026-03-12 09:25:26 - DEBUG - Baixando: 87% - Velocidade: 3493.59 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 87%
+2026-03-12 09:25:26 - DEBUG - Baixando: 87% - Velocidade: 3745.81 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 87%
+2026-03-12 09:25:26 - DEBUG - Baixando: 87% - Velocidade: 6195.43 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 87%
+2026-03-12 09:25:26 - DEBUG - Baixando: 87% - Velocidade: 10493.67 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 87%
+2026-03-12 09:25:26 - DEBUG - Baixando: 87% - Velocidade: 18134.29 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 87%
+2026-03-12 09:25:26 - DEBUG - Baixando: 87% - Velocidade: 29974.43 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 87%
+2026-03-12 09:25:26 - DEBUG - Baixando: 87% - Velocidade: 53717.87 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 87%
+2026-03-12 09:25:26 - DEBUG - Baixando: 87% - Velocidade: 97300.85 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 88%
+2026-03-12 09:25:26 - DEBUG - Baixando: 88% - Velocidade: 110537.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 88%
+2026-03-12 09:25:26 - DEBUG - Baixando: 88% - Velocidade: 110023.60 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 88%
+2026-03-12 09:25:26 - DEBUG - Baixando: 88% - Velocidade: 110970.39 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 89%
+2026-03-12 09:25:26 - DEBUG - Baixando: 89% - Velocidade: 80095.39 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 89%
+2026-03-12 09:25:26 - DEBUG - Baixando: 89% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 89%
+2026-03-12 09:25:26 - DEBUG - Baixando: 89% - Velocidade: 1500.47 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 89%
+2026-03-12 09:25:26 - DEBUG - Baixando: 89% - Velocidade: 1750.02 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 89%
+2026-03-12 09:25:26 - DEBUG - Baixando: 89% - Velocidade: 3000.22 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 89%
+2026-03-12 09:25:26 - DEBUG - Baixando: 89% - Velocidade: 5161.50 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 89%
+2026-03-12 09:25:26 - DEBUG - Baixando: 89% - Velocidade: 8393.40 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 89%
+2026-03-12 09:25:26 - DEBUG - Baixando: 89% - Velocidade: 14922.17 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 89%
+2026-03-12 09:25:26 - DEBUG - Baixando: 89% - Velocidade: 26811.75 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 89%
+2026-03-12 09:25:26 - DEBUG - Baixando: 89% - Velocidade: 40841.67 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 89%
+2026-03-12 09:25:26 - DEBUG - Baixando: 89% - Velocidade: 70504.67 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 89%
+2026-03-12 09:25:26 - DEBUG - Baixando: 89% - Velocidade: 113581.51 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 89%
+2026-03-12 09:25:26 - DEBUG - Baixando: 89% - Velocidade: 109849.80 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 90%
+2026-03-12 09:25:26 - INFO - Baixando: 90% - Velocidade: 110773.95 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 90%
+2026-03-12 09:25:26 - INFO - Baixando: 90% - Velocidade: 112497.98 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 90%
+2026-03-12 09:25:26 - INFO - Baixando: 90% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 90%
+2026-03-12 09:25:26 - INFO - Baixando: 90% - Velocidade: 1194.39 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 90%
+2026-03-12 09:25:26 - INFO - Baixando: 90% - Velocidade: 1994.30 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 90%
+2026-03-12 09:25:26 - INFO - Baixando: 90% - Velocidade: 3324.42 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 90%
+2026-03-12 09:25:26 - INFO - Baixando: 90% - Velocidade: 5622.63 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 90%
+2026-03-12 09:25:26 - INFO - Baixando: 90% - Velocidade: 9675.97 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 90%
+2026-03-12 09:25:26 - INFO - Baixando: 90% - Velocidade: 19505.53 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 90%
+2026-03-12 09:25:26 - INFO - Baixando: 90% - Velocidade: 32066.54 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 90%
+2026-03-12 09:25:26 - INFO - Baixando: 90% - Velocidade: 57078.28 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 90%
+2026-03-12 09:25:26 - INFO - Baixando: 90% - Velocidade: 92889.96 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 90%
+2026-03-12 09:25:26 - INFO - Baixando: 90% - Velocidade: 106168.50 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 90%
+2026-03-12 09:25:26 - INFO - Baixando: 90% - Velocidade: 73255.06 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 91%
+2026-03-12 09:25:26 - DEBUG - Baixando: 91% - Velocidade: 88618.99 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 91%
+2026-03-12 09:25:26 - DEBUG - Baixando: 91% - Velocidade: 92515.89 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 91%
+2026-03-12 09:25:26 - DEBUG - Baixando: 91% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 91%
+2026-03-12 09:25:26 - DEBUG - Baixando: 91% - Velocidade: 2817.49 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 91%
+2026-03-12 09:25:26 - DEBUG - Baixando: 91% - Velocidade: 3390.32 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 91%
+2026-03-12 09:25:26 - DEBUG - Baixando: 91% - Velocidade: 3691.09 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 91%
+2026-03-12 09:25:26 - DEBUG - Baixando: 91% - Velocidade: 7628.24 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 91%
+2026-03-12 09:25:26 - DEBUG - Baixando: 91% - Velocidade: 12441.90 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 91%
+2026-03-12 09:25:26 - DEBUG - Baixando: 91% - Velocidade: 20945.13 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 91%
+2026-03-12 09:25:26 - DEBUG - Baixando: 91% - Velocidade: 36105.31 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 91%
+2026-03-12 09:25:26 - DEBUG - Baixando: 91% - Velocidade: 63377.18 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 91%
+2026-03-12 09:25:26 - DEBUG - Baixando: 91% - Velocidade: 84717.52 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 91%
+2026-03-12 09:25:26 - DEBUG - Baixando: 91% - Velocidade: 28334.65 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 92%
+2026-03-12 09:25:26 - DEBUG - Baixando: 92% - Velocidade: 38462.10 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 92%
+2026-03-12 09:25:26 - DEBUG - Baixando: 92% - Velocidade: 57446.80 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 92%
+2026-03-12 09:25:26 - DEBUG - Baixando: 92% - Velocidade: 62283.91 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 92%
+2026-03-12 09:25:26 - DEBUG - Baixando: 92% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 92%
+2026-03-12 09:25:26 - DEBUG - Baixando: 92% - Velocidade: 1995.70 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 92%
+2026-03-12 09:25:26 - DEBUG - Baixando: 92% - Velocidade: 1551.23 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 92%
+2026-03-12 09:25:26 - DEBUG - Baixando: 92% - Velocidade: 2720.28 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 92%
+2026-03-12 09:25:26 - DEBUG - Baixando: 92% - Velocidade: 4759.10 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 92%
+2026-03-12 09:25:26 - DEBUG - Baixando: 92% - Velocidade: 8385.41 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 92%
+2026-03-12 09:25:26 - DEBUG - Baixando: 92% - Velocidade: 14915.48 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 92%
+2026-03-12 09:25:26 - DEBUG - Baixando: 92% - Velocidade: 25450.27 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 92%
+2026-03-12 09:25:26 - DEBUG - Baixando: 92% - Velocidade: 44330.47 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 93%
+2026-03-12 09:25:26 - DEBUG - Baixando: 93% - Velocidade: 81634.16 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:26 - DEBUG - Progresso atualizado: 93%
+2026-03-12 09:25:26 - DEBUG - Baixando: 93% - Velocidade: 102139.45 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 93%
+2026-03-12 09:25:27 - DEBUG - Baixando: 93% - Velocidade: 53650.18 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 93%
+2026-03-12 09:25:27 - DEBUG - Baixando: 93% - Velocidade: 28396.63 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 94%
+2026-03-12 09:25:27 - DEBUG - Baixando: 94% - Velocidade: 33004.72 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 94%
+2026-03-12 09:25:27 - DEBUG - Baixando: 94% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 94%
+2026-03-12 09:25:27 - DEBUG - Baixando: 94% - Velocidade: 1498.86 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 94%
+2026-03-12 09:25:27 - DEBUG - Baixando: 94% - Velocidade: 1749.81 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 94%
+2026-03-12 09:25:27 - DEBUG - Baixando: 94% - Velocidade: 2998.50 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 94%
+2026-03-12 09:25:27 - DEBUG - Baixando: 94% - Velocidade: 4765.03 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 94%
+2026-03-12 09:25:27 - DEBUG - Baixando: 94% - Velocidade: 8387.28 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 94%
+2026-03-12 09:25:27 - DEBUG - Baixando: 94% - Velocidade: 16907.68 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 94%
+2026-03-12 09:25:27 - DEBUG - Baixando: 94% - Velocidade: 24245.63 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 94%
+2026-03-12 09:25:27 - DEBUG - Baixando: 94% - Velocidade: 44373.60 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 94%
+2026-03-12 09:25:27 - DEBUG - Baixando: 94% - Velocidade: 81729.01 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 94%
+2026-03-12 09:25:27 - DEBUG - Baixando: 94% - Velocidade: 116870.04 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 94%
+2026-03-12 09:25:27 - DEBUG - Baixando: 94% - Velocidade: 111093.92 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 95%
+2026-03-12 09:25:27 - INFO - Baixando: 95% - Velocidade: 111298.25 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 95%
+2026-03-12 09:25:27 - INFO - Baixando: 95% - Velocidade: 84139.03 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 95%
+2026-03-12 09:25:27 - INFO - Baixando: 95% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 95%
+2026-03-12 09:25:27 - INFO - Baixando: 95% - Velocidade: 2996.64 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 95%
+2026-03-12 09:25:27 - INFO - Baixando: 95% - Velocidade: 3499.42 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 95%
+2026-03-12 09:25:27 - INFO - Baixando: 95% - Velocidade: 2723.69 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 95%
+2026-03-12 09:25:27 - INFO - Baixando: 95% - Velocidade: 4124.72 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 95%
+2026-03-12 09:25:27 - INFO - Baixando: 95% - Velocidade: 6618.77 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 95%
+2026-03-12 09:25:27 - INFO - Baixando: 95% - Velocidade: 12077.47 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 95%
+2026-03-12 09:25:27 - INFO - Baixando: 95% - Velocidade: 22142.47 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 95%
+2026-03-12 09:25:27 - INFO - Baixando: 95% - Velocidade: 36449.26 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 95%
+2026-03-12 09:25:27 - INFO - Baixando: 95% - Velocidade: 61896.27 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 95%
+2026-03-12 09:25:27 - INFO - Baixando: 95% - Velocidade: 104810.24 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 95%
+2026-03-12 09:25:27 - INFO - Baixando: 95% - Velocidade: 78446.01 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 96%
+2026-03-12 09:25:27 - DEBUG - Baixando: 96% - Velocidade: 65467.44 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 96%
+2026-03-12 09:25:27 - DEBUG - Baixando: 96% - Velocidade: 54929.58 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 96%
+2026-03-12 09:25:27 - DEBUG - Baixando: 96% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 96%
+2026-03-12 09:25:27 - DEBUG - Baixando: 96% - Velocidade: 1424.53 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 96%
+2026-03-12 09:25:27 - DEBUG - Baixando: 96% - Velocidade: 2251.20 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 96%
+2026-03-12 09:25:27 - DEBUG - Baixando: 96% - Velocidade: 2934.86 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 96%
+2026-03-12 09:25:27 - DEBUG - Baixando: 96% - Velocidade: 6065.37 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 96%
+2026-03-12 09:25:27 - DEBUG - Baixando: 96% - Velocidade: 10309.84 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 96%
+2026-03-12 09:25:27 - DEBUG - Baixando: 96% - Velocidade: 16672.19 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 96%
+2026-03-12 09:25:27 - DEBUG - Baixando: 96% - Velocidade: 29577.38 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 96%
+2026-03-12 09:25:27 - DEBUG - Baixando: 96% - Velocidade: 53088.51 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 96%
+2026-03-12 09:25:27 - DEBUG - Baixando: 96% - Velocidade: 96255.31 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 97%
+2026-03-12 09:25:27 - DEBUG - Baixando: 97% - Velocidade: 109905.92 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 97%
+2026-03-12 09:25:27 - DEBUG - Baixando: 97% - Velocidade: 113116.19 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 97%
+2026-03-12 09:25:27 - DEBUG - Baixando: 97% - Velocidade: 79960.21 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 98%
+2026-03-12 09:25:27 - DEBUG - Baixando: 98% - Velocidade: 67544.04 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 98%
+2026-03-12 09:25:27 - DEBUG - Baixando: 98% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 98%
+2026-03-12 09:25:27 - DEBUG - Baixando: 98% - Velocidade: 1499.93 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 98%
+2026-03-12 09:25:27 - DEBUG - Baixando: 98% - Velocidade: 2330.54 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 98%
+2026-03-12 09:25:27 - DEBUG - Baixando: 98% - Velocidade: 3748.48 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 98%
+2026-03-12 09:25:27 - DEBUG - Baixando: 98% - Velocidade: 5159.05 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 98%
+2026-03-12 09:25:27 - DEBUG - Baixando: 98% - Velocidade: 10484.51 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 98%
+2026-03-12 09:25:27 - DEBUG - Baixando: 98% - Velocidade: 18120.72 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 98%
+2026-03-12 09:25:27 - DEBUG - Baixando: 98% - Velocidade: 25475.73 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 98%
+2026-03-12 09:25:27 - DEBUG - Baixando: 98% - Velocidade: 42550.91 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 98%
+2026-03-12 09:25:27 - DEBUG - Baixando: 98% - Velocidade: 73019.52 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 98%
+2026-03-12 09:25:27 - DEBUG - Baixando: 98% - Velocidade: 106797.11 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 98%
+2026-03-12 09:25:27 - DEBUG - Baixando: 98% - Velocidade: 96872.97 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 99%
+2026-03-12 09:25:27 - DEBUG - Baixando: 99% - Velocidade: 86075.64 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 99%
+2026-03-12 09:25:27 - DEBUG - Baixando: 99% - Velocidade: 55440.65 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 99%
+2026-03-12 09:25:27 - DEBUG - Baixando: 99% - Velocidade: 0.00 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 99%
+2026-03-12 09:25:27 - DEBUG - Baixando: 99% - Velocidade: 1995.07 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 99%
+2026-03-12 09:25:27 - DEBUG - Baixando: 99% - Velocidade: 1995.25 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 99%
+2026-03-12 09:25:27 - DEBUG - Baixando: 99% - Velocidade: 2723.34 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 99%
+2026-03-12 09:25:27 - DEBUG - Baixando: 99% - Velocidade: 4761.02 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 99%
+2026-03-12 09:25:27 - DEBUG - Baixando: 99% - Velocidade: 9675.62 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 99%
+2026-03-12 09:25:27 - DEBUG - Baixando: 99% - Velocidade: 16911.44 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 99%
+2026-03-12 09:25:27 - DEBUG - Baixando: 99% - Velocidade: 29958.48 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 99%
+2026-03-12 09:25:27 - DEBUG - Baixando: 99% - Velocidade: 53724.60 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:27 - DEBUG - Progresso atualizado: 99%
+2026-03-12 09:25:27 - DEBUG - Baixando: 99% - Velocidade: 97336.17 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 99%
+2026-03-12 09:25:28 - DEBUG - Baixando: 99% - Velocidade: 26399.22 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 99%
+2026-03-12 09:25:28 - DEBUG - Baixando: 99% - Velocidade: 42850.81 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 100%
+2026-03-12 09:25:28 - INFO - Baixando: 100% - Velocidade: 50568.27 KiB/s - Tamanho: 755.22 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 100%
+2026-03-12 09:25:28 - INFO - Download concluído, formato: MP4 (melhor qualidade)
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:25:28 - INFO - Baixando: 0% - Velocidade: 0.00 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:25:28 - INFO - Baixando: 0% - Velocidade: 1496.90 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:25:28 - INFO - Baixando: 0% - Velocidade: 1398.83 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:25:28 - INFO - Baixando: 0% - Velocidade: 2141.70 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:25:28 - INFO - Baixando: 0% - Velocidade: 3643.34 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:25:28 - INFO - Baixando: 0% - Velocidade: 7404.20 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:25:28 - INFO - Baixando: 0% - Velocidade: 12684.59 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 1%
+2026-03-12 09:25:28 - DEBUG - Baixando: 1% - Velocidade: 23148.38 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 2%
+2026-03-12 09:25:28 - DEBUG - Baixando: 2% - Velocidade: 39260.14 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 4%
+2026-03-12 09:25:28 - DEBUG - Baixando: 4% - Velocidade: 78597.10 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 9%
+2026-03-12 09:25:28 - DEBUG - Baixando: 9% - Velocidade: 116809.61 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 19%
+2026-03-12 09:25:28 - DEBUG - Baixando: 19% - Velocidade: 78331.52 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 39%
+2026-03-12 09:25:28 - DEBUG - Baixando: 39% - Velocidade: 67583.66 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 48%
+2026-03-12 09:25:28 - DEBUG - Baixando: 48% - Velocidade: 65833.09 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 48%
+2026-03-12 09:25:28 - DEBUG - Baixando: 48% - Velocidade: 0.00 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 48%
+2026-03-12 09:25:28 - DEBUG - Baixando: 48% - Velocidade: 1550.57 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 48%
+2026-03-12 09:25:28 - DEBUG - Baixando: 48% - Velocidade: 2380.23 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 48%
+2026-03-12 09:25:28 - DEBUG - Baixando: 48% - Velocidade: 3036.42 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 48%
+2026-03-12 09:25:28 - DEBUG - Baixando: 48% - Velocidade: 6275.26 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 48%
+2026-03-12 09:25:28 - DEBUG - Baixando: 48% - Velocidade: 10606.98 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 48%
+2026-03-12 09:25:28 - DEBUG - Baixando: 48% - Velocidade: 18296.86 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 49%
+2026-03-12 09:25:28 - DEBUG - Baixando: 49% - Velocidade: 32119.51 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 50%
+2026-03-12 09:25:28 - INFO - Baixando: 50% - Velocidade: 15455.48 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 53%
+2026-03-12 09:25:28 - DEBUG - Baixando: 53% - Velocidade: 26880.00 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 58%
+2026-03-12 09:25:28 - DEBUG - Baixando: 58% - Velocidade: 43953.03 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 68%
+2026-03-12 09:25:28 - DEBUG - Baixando: 68% - Velocidade: 56788.85 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 88%
+2026-03-12 09:25:28 - DEBUG - Baixando: 88% - Velocidade: 61200.99 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 96%
+2026-03-12 09:25:28 - DEBUG - Baixando: 96% - Velocidade: 64189.77 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 96%
+2026-03-12 09:25:28 - DEBUG - Baixando: 96% - Velocidade: 0.00 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 96%
+2026-03-12 09:25:28 - DEBUG - Baixando: 96% - Velocidade: 2995.22 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 96%
+2026-03-12 09:25:28 - DEBUG - Baixando: 96% - Velocidade: 2332.02 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 96%
+2026-03-12 09:25:28 - DEBUG - Baixando: 96% - Velocidade: 3748.26 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 96%
+2026-03-12 09:25:28 - DEBUG - Baixando: 96% - Velocidade: 6197.49 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 96%
+2026-03-12 09:25:28 - DEBUG - Baixando: 96% - Velocidade: 10497.84 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 96%
+2026-03-12 09:25:28 - DEBUG - Baixando: 96% - Velocidade: 18136.76 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 97%
+2026-03-12 09:25:28 - DEBUG - Baixando: 97% - Velocidade: 31876.36 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 98%
+2026-03-12 09:25:28 - DEBUG - Baixando: 98% - Velocidade: 60089.98 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 100%
+2026-03-12 09:25:28 - INFO - Baixando: 100% - Velocidade: 10679.99 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:25:28 - DEBUG - Progresso atualizado: 100%
+2026-03-12 09:25:28 - INFO - Download concluído, formato: MP4 (melhor qualidade)
+2026-03-12 09:25:29 - INFO - Download concluído com sucesso: O vídeo e áudio foram baixados na qualidade 1440p (30fps) no formato MP4 (melhor qualidade).
+2026-03-12 09:25:46 - INFO - Iniciando YouTube Downloader
+2026-03-12 09:25:46 - INFO - Verificando disponibilidade do FFmpeg
+2026-03-12 09:25:47 - DEBUG - FFmpeg encontrado no PATH do sistema: ffmpeg version N-120064-g3b9dbda49b-20250701 Copyright (c) 2000-2025 the FFmpeg developers
+2026-03-12 09:25:47 - INFO - Inicializando interface gráfica
+2026-03-12 09:25:47 - DEBUG - Janela principal criada
+2026-03-12 09:25:47 - DEBUG - Criando campo de entrada para URL
+2026-03-12 09:25:47 - DEBUG - Criando campo para pasta de destino
+2026-03-12 09:25:47 - INFO - Carregando configuração
+2026-03-12 09:25:47 - DEBUG - Modo executável: Diretório de configuração: C:\Users\nadso\Documents\pythonProject\yt_downloader\dist
+2026-03-12 09:25:47 - DEBUG - Caminho do arquivo de configuração: C:\Users\nadso\Documents\pythonProject\yt_downloader\dist\config.json
+2026-03-12 09:25:47 - DEBUG - Arquivo de configuração encontrado: C:\Users\nadso\Documents\pythonProject\yt_downloader\dist\config.json
+2026-03-12 09:25:47 - INFO - Configuração carregada - Pasta: C:/Users/nadso/Documents/Pasta teste, Formato: MP4 (melhor qualidade)
+2026-03-12 09:25:47 - DEBUG - Pasta de destino padrão: C:/Users/nadso/Documents/Pasta teste
+2026-03-12 09:25:47 - DEBUG - Criando seleção de tipo de download
+2026-03-12 09:25:47 - DEBUG - Criando seleção de qualidade de vídeo
+2026-03-12 09:25:47 - DEBUG - Criando seleção de formato de saída
+2026-03-12 09:25:47 - DEBUG - Criando barra de progresso
+2026-03-12 09:25:47 - DEBUG - Criando label de status
+2026-03-12 09:25:47 - DEBUG - Criando label de orientação
+2026-03-12 09:25:47 - DEBUG - Criando botão de download
+2026-03-12 09:25:47 - DEBUG - Atualizando opções de formato para tipo: audio
+2026-03-12 09:25:47 - DEBUG - Botão habilitado para download de áudio
+2026-03-12 09:25:47 - DEBUG - Formatos atualizados: ('MP3 (320kbps)', 'MP3 (192kbps)', 'WAV', 'FLAC', 'AAC', 'OGG', 'M4A')
+2026-03-12 09:25:47 - INFO - Interface gráfica inicializada com sucesso
+2026-03-12 09:25:47 - INFO - Iniciando loop principal da aplicação
+2026-03-12 09:25:51 - WARNING - Tentativa de verificar qualidade sem URL
+2026-03-12 09:25:53 - DEBUG - URL alterada, resetando opções de qualidade
+2026-03-12 09:25:53 - DEBUG - Botão de download atualizado - qualidade precisa ser verificada novamente
+2026-03-12 09:25:53 - DEBUG - URL alterada, resetando opções de qualidade
+2026-03-12 09:25:53 - DEBUG - Botão de download atualizado - qualidade precisa ser verificada novamente
+2026-03-12 09:25:54 - INFO - Verificando qualidades disponíveis para: https://www.youtube.com/watch?v=S5MUgY4vNIc
+2026-03-12 09:25:54 - DEBUG - Iniciando thread para verificar qualidades
+2026-03-12 09:25:54 - DEBUG - Iniciando extração de informações de qualidade
+2026-03-12 09:25:54 - DEBUG - Extraindo metadados do vídeo
+2026-03-12 09:25:55 - INFO - Encontrados 31 formatos disponíveis
+2026-03-12 09:25:55 - INFO - Atualizando opções de qualidade para: Switch OLED destravado DA SHOPEE com FREESHOP INSTALADA!
+2026-03-12 09:25:55 - DEBUG - Finalizando processo de verificação de qualidades
+2026-03-12 09:25:55 - DEBUG - Qualidades disponíveis: ['Melhor qualidade disponível', '2160p (30fps)', '1440p (30fps)', '1080p (30fps)', '720p (30fps)', '480p (30fps)', '360p (30fps)', '240p (30fps)', '144p (30fps)']
+2026-03-12 09:25:55 - DEBUG - Botão de download habilitado após verificação de qualidade
+2026-03-12 09:25:59 - DEBUG - Atualizando opções de formato para tipo: both
+2026-03-12 09:25:59 - DEBUG - Botão habilitado para download de vídeo - qualidade verificada
+2026-03-12 09:25:59 - DEBUG - Formatos atualizados: ('MP4 (H.264)', 'MP4 (melhor qualidade)', 'WebM (VP9)', 'AVI', 'MKV', 'MOV')
+2026-03-12 09:26:00 - DEBUG - Atualizando opções de formato para tipo: audio
+2026-03-12 09:26:00 - DEBUG - Botão habilitado para download de áudio
+2026-03-12 09:26:00 - DEBUG - Formatos atualizados: ('MP3 (320kbps)', 'MP3 (192kbps)', 'WAV', 'FLAC', 'AAC', 'OGG', 'M4A')
+2026-03-12 09:26:12 - INFO - Preparando para iniciar download: URL=https://www.youtube.com/watch?v=S5MUgY4vNIc, destino=C:/Users/nadso/Documents/Pasta teste, tipo=audio, formato=MP3 (192kbps), qualidade=1080p (30fps)
+2026-03-12 09:26:12 - INFO - Salvando configuração: pasta destino = C:/Users/nadso/Documents/Pasta teste, formato = MP3 (192kbps)
+2026-03-12 09:26:12 - DEBUG - Modo executável: Diretório de configuração: C:\Users\nadso\Documents\pythonProject\yt_downloader\dist
+2026-03-12 09:26:12 - DEBUG - Caminho do arquivo de configuração: C:\Users\nadso\Documents\pythonProject\yt_downloader\dist\config.json
+2026-03-12 09:26:12 - DEBUG - Configuração salva com sucesso
+2026-03-12 09:26:12 - INFO - Tipo de download selecionado: audio
+2026-03-12 09:26:12 - INFO - Formato de saída selecionado: MP3 (192kbps)
+2026-03-12 09:26:12 - INFO - Qualidade selecionada: 1080p (30fps)
+2026-03-12 09:26:12 - DEBUG - Criando thread para download
+2026-03-12 09:26:12 - INFO - Iniciando download: URL=https://www.youtube.com/watch?v=S5MUgY4vNIc, tipo=audio, formato=MP3 (192kbps), qualidade=1080p (30fps), destino=C:/Users/nadso/Documents/Pasta teste
+2026-03-12 09:26:12 - DEBUG - Thread de download iniciada
+2026-03-12 09:26:12 - DEBUG - Configuração do formato: {'ext': 'mp3', 'acodec': 'mp3', 'abr': '192'}
+2026-03-12 09:26:12 - DEBUG - Qualidade selecionada: 1080p (30fps)
+2026-03-12 09:26:12 - DEBUG - Configurando opções para download de áudio
+2026-03-12 09:26:12 - INFO - Iniciando o processo de download com yt_dlp
+2026-03-12 09:26:12 - DEBUG - Opções do yt_dlp: {'outtmpl': 'C:/Users/nadso/Documents/Pasta teste\\%(title)s.%(ext)s', 'progress_hooks': [<function download_content.<locals>.<lambda> at 0x0000015DA27C1620>], 'ignoreerrors': False, 'no_warnings': False, 'extractaudio': True, 'audioformat': 'mp3', 'retries': 3, 'fragment_retries': 3, 'skip_unavailable_fragments': False, 'postprocessor_args': {'ffmpeg': ['-y']}, 'format': 'bestaudio/best', 'postprocessors': [{'key': 'FFmpegExtractAudio', 'preferredcodec': 'mp3', 'preferredquality': '192', 'nopostoverwrites': False}]}
+2026-03-12 09:26:12 - DEBUG - Obtendo informações do vídeo
+2026-03-12 09:26:13 - INFO - Vídeo encontrado: Título='Switch OLED destravado DA SHOPEE com FREESHOP INSTALADA!', Duração=1197s
+2026-03-12 09:26:13 - DEBUG - Iniciando download efetivo
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:26:14 - INFO - Baixando: 0% - Velocidade: 995.56 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:26:14 - INFO - Baixando: 0% - Velocidade: 1500.47 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:26:14 - INFO - Baixando: 0% - Velocidade: 2332.95 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:26:14 - INFO - Baixando: 0% - Velocidade: 3747.59 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:26:14 - INFO - Baixando: 0% - Velocidade: 6197.20 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:26:14 - INFO - Baixando: 0% - Velocidade: 10502.43 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 0%
+2026-03-12 09:26:14 - INFO - Baixando: 0% - Velocidade: 18133.05 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 1%
+2026-03-12 09:26:14 - DEBUG - Baixando: 1% - Velocidade: 31857.37 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 2%
+2026-03-12 09:26:14 - DEBUG - Baixando: 2% - Velocidade: 50896.19 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 4%
+2026-03-12 09:26:14 - DEBUG - Baixando: 4% - Velocidade: 63775.81 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 9%
+2026-03-12 09:26:14 - DEBUG - Baixando: 9% - Velocidade: 83375.32 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 19%
+2026-03-12 09:26:14 - DEBUG - Baixando: 19% - Velocidade: 95050.77 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 39%
+2026-03-12 09:26:14 - DEBUG - Baixando: 39% - Velocidade: 103064.26 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 47%
+2026-03-12 09:26:14 - DEBUG - Baixando: 47% - Velocidade: 105600.71 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 47%
+2026-03-12 09:26:14 - DEBUG - Baixando: 47% - Velocidade: 0.00 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 47%
+2026-03-12 09:26:14 - DEBUG - Baixando: 47% - Velocidade: 0.00 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 47%
+2026-03-12 09:26:14 - DEBUG - Baixando: 47% - Velocidade: 2334.43 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 47%
+2026-03-12 09:26:14 - DEBUG - Baixando: 47% - Velocidade: 5002.35 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 47%
+2026-03-12 09:26:14 - DEBUG - Baixando: 47% - Velocidade: 5628.23 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 47%
+2026-03-12 09:26:14 - DEBUG - Baixando: 47% - Velocidade: 9673.14 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 48%
+2026-03-12 09:26:14 - DEBUG - Baixando: 48% - Velocidade: 16899.64 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 48%
+2026-03-12 09:26:14 - DEBUG - Baixando: 48% - Velocidade: 29958.48 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 50%
+2026-03-12 09:26:14 - INFO - Baixando: 50% - Velocidade: 48129.20 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 52%
+2026-03-12 09:26:14 - DEBUG - Baixando: 52% - Velocidade: 88073.67 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 57%
+2026-03-12 09:26:14 - DEBUG - Baixando: 57% - Velocidade: 111933.41 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 67%
+2026-03-12 09:26:14 - DEBUG - Baixando: 67% - Velocidade: 111225.57 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 87%
+2026-03-12 09:26:14 - DEBUG - Baixando: 87% - Velocidade: 112304.22 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 97%
+2026-03-12 09:26:14 - DEBUG - Baixando: 97% - Velocidade: 113846.55 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 97%
+2026-03-12 09:26:14 - DEBUG - Baixando: 97% - Velocidade: 0.00 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 97%
+2026-03-12 09:26:14 - DEBUG - Baixando: 97% - Velocidade: 0.00 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 97%
+2026-03-12 09:26:14 - DEBUG - Baixando: 97% - Velocidade: 2146.21 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 97%
+2026-03-12 09:26:14 - DEBUG - Baixando: 97% - Velocidade: 3518.71 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 97%
+2026-03-12 09:26:14 - DEBUG - Baixando: 97% - Velocidade: 5891.41 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 97%
+2026-03-12 09:26:14 - DEBUG - Baixando: 97% - Velocidade: 10061.73 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 97%
+2026-03-12 09:26:14 - DEBUG - Baixando: 97% - Velocidade: 17488.89 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 98%
+2026-03-12 09:26:14 - DEBUG - Baixando: 98% - Velocidade: 30853.82 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 99%
+2026-03-12 09:26:14 - DEBUG - Baixando: 99% - Velocidade: 55162.64 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 100%
+2026-03-12 09:26:14 - INFO - Baixando: 100% - Velocidade: 55205.55 KiB/s - Tamanho: 20.04 MiB
+2026-03-12 09:26:14 - DEBUG - Progresso atualizado: 100%
+2026-03-12 09:26:14 - INFO - Download de áudio concluído, formato: MP3 (192kbps)
+2026-03-12 09:26:27 - INFO - Download concluído com sucesso: O áudio foi baixado com sucesso no formato MP3 (192kbps).
